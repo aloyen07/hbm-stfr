@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "closed=false": {
+      "model": "hbmstfr:stfr_detonator_connector"
+    },
+    "closed=true": {
+      "model": "hbmstfr:stfr_detonator_connector"
+    }
+  }
+}

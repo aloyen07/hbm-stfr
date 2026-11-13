@@ -1,0 +1,19 @@
+repositories {
+    mavenCentral()
+    maven {
+        url = 'https://repo.warfactory.co/releases'
+        content { includeGroup 'com.hbm' }
+        // Upstream module metadata describes Java 25, even for its Java 8 dev jar.
+        metadataSources { artifact() }
+    }
+    maven { url = 'https://maven.cleanroommc.com' }
+    maven { url = 'https://cursemaven.com' }
+    maven { url = 'https://maven.blamejared.com' }
+    ivy {
+        name = 'HBMSpaceReleases'
+        url = 'https://github.com/Warfactory-Official/Hbm-s-Nuclear-Tech-CE-Space/releases/download'
+        patternLayout { artifact '[revision]/[artifact](-[classifier]).[ext]' }
+        metadataSources { artifact() }
+        content { includeGroup 'com.hbmspace' }
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "hbmstfr:stair_rotation",
+  "ingredients": [
+    {
+      "item": "hbmstfr:bscco_coil_stairs_welded"
+    }
+  ],
+  "result": {
+    "item": "hbmstfr:vertical_bscco_coil_stairs_welded",
+    "count": 1
+  }
+}

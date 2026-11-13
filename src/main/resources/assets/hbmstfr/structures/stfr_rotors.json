@@ -1,0 +1,1031 @@
+{
+  "formatVersion": 1,
+  "rotorAnnotations": [
+    {
+      "pos": [
+        24,
+        14,
+        13
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        24,
+        13,
+        13
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        24,
+        15,
+        13
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        4,
+        15,
+        13
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        4,
+        13,
+        13
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        4,
+        14,
+        13
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        24,
+        14,
+        14
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        24,
+        15,
+        14
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        24,
+        13,
+        14
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        4,
+        15,
+        14
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        4,
+        14,
+        14
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        4,
+        13,
+        14
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        24,
+        14,
+        15
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        24,
+        15,
+        15
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        24,
+        13,
+        15
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        4,
+        15,
+        15
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        4,
+        14,
+        15
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        4,
+        13,
+        15
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        13,
+        15,
+        4
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        13,
+        14,
+        4
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        13,
+        13,
+        4
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        13,
+        15,
+        5
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        13,
+        14,
+        5
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        13,
+        13,
+        5
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        5,
+        15,
+        13
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        5,
+        13,
+        13
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        13,
+        23,
+        13
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        13,
+        24,
+        13
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        13,
+        5,
+        13
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        5,
+        14,
+        13
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        13,
+        4,
+        13
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        5,
+        15,
+        14
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        5,
+        13,
+        14
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        13,
+        23,
+        14
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        13,
+        24,
+        14
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        13,
+        5,
+        14
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        5,
+        14,
+        14
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        13,
+        4,
+        14
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        13,
+        23,
+        15
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        5,
+        15,
+        15
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        13,
+        24,
+        15
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        5,
+        13,
+        15
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        13,
+        5,
+        15
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        5,
+        14,
+        15
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        13,
+        4,
+        15
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        13,
+        15,
+        23
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        13,
+        14,
+        23
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        13,
+        13,
+        23
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        13,
+        15,
+        24
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        13,
+        14,
+        24
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        13,
+        13,
+        24
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        14,
+        15,
+        4
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        14,
+        13,
+        4
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        14,
+        14,
+        4
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        14,
+        15,
+        5
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        14,
+        13,
+        5
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        14,
+        14,
+        5
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        14,
+        5,
+        13
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        14,
+        4,
+        13
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        14,
+        23,
+        13
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        14,
+        24,
+        13
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        14,
+        5,
+        14
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        14,
+        4,
+        14
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        14,
+        23,
+        14
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        14,
+        24,
+        14
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        14,
+        5,
+        15
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        14,
+        4,
+        15
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        14,
+        23,
+        15
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        14,
+        24,
+        15
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        14,
+        15,
+        23
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        14,
+        13,
+        23
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        14,
+        14,
+        23
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        14,
+        15,
+        24
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        14,
+        13,
+        24
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        14,
+        14,
+        24
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        15,
+        15,
+        4
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        15,
+        13,
+        4
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        15,
+        14,
+        4
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        15,
+        15,
+        5
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        15,
+        13,
+        5
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        15,
+        14,
+        5
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        15,
+        23,
+        13
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        23,
+        15,
+        13
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        15,
+        24,
+        13
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        15,
+        5,
+        13
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        23,
+        13,
+        13
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        23,
+        14,
+        13
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        15,
+        4,
+        13
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        15,
+        23,
+        14
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        23,
+        15,
+        14
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        15,
+        24,
+        14
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        15,
+        5,
+        14
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        23,
+        13,
+        14
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        23,
+        14,
+        14
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        15,
+        4,
+        14
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        23,
+        14,
+        15
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        23,
+        15,
+        15
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        23,
+        13,
+        15
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        15,
+        4,
+        15
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        15,
+        5,
+        15
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        15,
+        23,
+        15
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        15,
+        24,
+        15
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        15,
+        15,
+        23
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        15,
+        13,
+        23
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        15,
+        14,
+        23
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        15,
+        15,
+        24
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        15,
+        13,
+        24
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        15,
+        14,
+        24
+      ],
+      "role": "ROTOR"
+    },
+    {
+      "pos": [
+        14,
+        14,
+        4
+      ],
+      "role": "AXIS",
+      "face": "north"
+    },
+    {
+      "pos": [
+        14,
+        14,
+        24
+      ],
+      "role": "AXIS",
+      "face": "south"
+    },
+    {
+      "pos": [
+        14,
+        24,
+        14
+      ],
+      "role": "AXIS",
+      "face": "up"
+    },
+    {
+      "pos": [
+        24,
+        14,
+        14
+      ],
+      "role": "AXIS",
+      "face": "east"
+    },
+    {
+      "pos": [
+        4,
+        14,
+        14
+      ],
+      "role": "AXIS",
+      "face": "west"
+    },
+    {
+      "pos": [
+        14,
+        4,
+        14
+      ],
+      "role": "AXIS",
+      "face": "down"
+    },
+    {
+      "pos": [
+        14,
+        14,
+        4
+      ],
+      "role": "PARTICLE",
+      "face": "north"
+    },
+    {
+      "pos": [
+        14,
+        14,
+        5
+      ],
+      "role": "PARTICLE",
+      "face": "south"
+    },
+    {
+      "pos": [
+        24,
+        14,
+        14
+      ],
+      "role": "PARTICLE",
+      "face": "east"
+    },
+    {
+      "pos": [
+        4,
+        14,
+        14
+      ],
+      "role": "PARTICLE",
+      "face": "west"
+    },
+    {
+      "pos": [
+        14,
+        24,
+        14
+      ],
+      "role": "PARTICLE",
+      "face": "up"
+    },
+    {
+      "pos": [
+        14,
+        4,
+        14
+      ],
+      "role": "PARTICLE",
+      "face": "down"
+    },
+    {
+      "pos": [
+        23,
+        14,
+        14
+      ],
+      "role": "PARTICLE",
+      "face": "west"
+    },
+    {
+      "pos": [
+        5,
+        14,
+        14
+      ],
+      "role": "PARTICLE",
+      "face": "east"
+    },
+    {
+      "pos": [
+        14,
+        23,
+        14
+      ],
+      "role": "PARTICLE",
+      "face": "down"
+    },
+    {
+      "pos": [
+        14,
+        5,
+        14
+      ],
+      "role": "PARTICLE",
+      "face": "up"
+    },
+    {
+      "pos": [
+        14,
+        14,
+        23
+      ],
+      "role": "PARTICLE",
+      "face": "north"
+    },
+    {
+      "pos": [
+        14,
+        14,
+        24
+      ],
+      "role": "PARTICLE",
+      "face": "south"
+    }
+  ]
+}

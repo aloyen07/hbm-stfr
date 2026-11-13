@@ -1,0 +1,22 @@
+{
+  "parent": "hbmstfr:reactor/root",
+  "display": {
+    "icon": {
+      "item": "hbmstfr:stfr_key_card"
+    },
+    "title": {
+      "translate": "advancement.hbmstfr.quick_thinking.title"
+    },
+    "description": {
+      "translate": "advancement.hbmstfr.quick_thinking.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "event": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

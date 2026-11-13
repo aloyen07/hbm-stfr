@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "normal": {
+      "model": "hbmstfr:stfr_auxiliary_quartz_lens"
+    }
+  }
+}

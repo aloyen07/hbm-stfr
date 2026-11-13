@@ -1,0 +1,22 @@
+{
+  "parent": "hbmstfr:reactor/root",
+  "display": {
+    "icon": {
+      "item": "hbm:nuke_man"
+    },
+    "title": {
+      "translate": "advancement.hbmstfr.detonation.title"
+    },
+    "description": {
+      "translate": "advancement.hbmstfr.detonation.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "event": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

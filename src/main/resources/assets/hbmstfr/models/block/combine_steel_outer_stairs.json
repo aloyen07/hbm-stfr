@@ -1,0 +1,4 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": { "bottom": "hbm:blocks/block_combine_steel", "top": "hbm:blocks/block_combine_steel", "side": "hbm:blocks/block_combine_steel", "particle": "hbm:blocks/block_combine_steel" }
+}

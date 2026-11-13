@@ -1,0 +1,41 @@
+HBM:STFR — Credits / Авторы
+
+Aloyenz
+Minecraft Forge 1.12.2 / HBM port, integration and additional development.
+Порт на Minecraft Forge 1.12.2 / HBM, интеграция и дальнейшее развитие.
+
+jona23
+Original STFR reactor design and TERF datapack implementation.
+Оригинальная конструкция реактора STFR и реализация в датапаке TERF.
+https://github.com/jona23EE
+https://github.com/jona23EE/TERF_datapack
+Ported with permission; PolyForm Noncommercial 1.0.0 approved for this port.
+Перенос и применение PolyForm Noncommercial 1.0.0 к порту согласованы с автором.
+
+HBM's Nuclear Tech Mod: Community Edition and HBM:Space contributors
+Reactor integration APIs and the HBM mod ecosystem.
+API интеграции реактора и экосистема модов HBM.
+https://github.com/Warfactory-Official/Hbm-s-Nuclear-Tech-CE
+https://github.com/Warfactory-Official/Hbm-s-Nuclear-Tech-CE-Space
+
+Build tooling
+RetroFuturaGradle — GTNewHorizons and contributors.
+https://github.com/GTNewHorizons/RetroFuturaGradle
+JvmDowngrader — William Gray (WagYourTail) and contributors.
+https://github.com/unimined/JvmDowngrader
+Gradle — Gradle contributors.
+https://gradle.org/
+
+Music and third-party assets
+Music and adapted recordings retain their respective creators' rights.
+The music catalog contains the artist/source labels Carpenter Brut, Remi Gallego,
+Joel Nielsen, Ogre Sound, Alex Giudici, Cold Cinema, Infraction and Fragik.
+Some recordings are TERF edits or have an unidentified remix/source.
+These acknowledgements do not grant rights to those recordings.
+Музыка и адаптированные записи сохраняют права их создателей.
+Указание авторов не предоставляет дополнительных прав на эти записи.
+
+See NOTICE for the required attribution lines, LICENSE for the project
+license and THIRD_PARTY_NOTICES for the scope of third-party terms.
+Обязательные уведомления находятся в NOTICE, лицензия проекта — в LICENSE,
+условия сторонних компонентов — в THIRD_PARTY_NOTICES.

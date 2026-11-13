@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "hbmstfr:stair_rotation",
+  "ingredients": [
+    {
+      "item": "hbmstfr:combine_steel_revited_stairs"
+    }
+  ],
+  "result": {
+    "item": "hbmstfr:vertical_combine_steel_revited_stairs",
+    "count": 1
+  }
+}

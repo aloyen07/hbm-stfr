@@ -1,0 +1,7 @@
+{
+  "parent": "hbmstfr:block/fuel_slot_base",
+  "textures": {
+    "all": "hbm:blocks/brick_compound",
+    "particle": "hbm:blocks/brick_compound"
+  }
+}

@@ -1,0 +1,18 @@
+dependencies {
+    // Space requires CE >= 2.6.0.0, independently of the older CE GitHub release tag.
+    implementation("com.hbm:ntm-ce:${hbmVersion}:dev@jar")
+    // Optional at runtime: kept for the development client, but not exposed as an STFR requirement.
+    runtimeOnly("com.hbmspace:NTM-Space-1.12.2-${hbmSpaceVersion}:${hbmSpaceRelease}:dev@jar")
+    implementation('com.google.guava:guava:31.0.1-jre')
+    implementation("zone.rong:mixinbooter:${mixinBooterVersion}")
+    runtimeOnly(rfg.deobf('curse.maven:opencomputers-223008:6608365'))
+    // HBM's fluid tank tile implements its optional SimpleComponent API.
+    compileOnly(rfg.deobf('curse.maven:opencomputers-223008:6608365'))
+    compileOnly(rfg.deobf('mezz:jei:4.34.0'))
+    runtimeOnly(rfg.deobf('mezz:jei:4.34.0'))
+    runtimeOnly(rfg.deobf('curse.maven:ctm-267602:2915363'))
+    // Development-only structure export/import tool for the STFR reactor.
+    runtimeOnly(rfg.deobf('curse.maven:worldedit-225608:2941712'))
+    testImplementation('org.junit.jupiter:junit-jupiter:5.11.4')
+    testRuntimeOnly('org.junit.platform:junit-platform-launcher:1.11.4')
+}

@@ -1,0 +1,21 @@
+.gradle/
+build/
+run/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.repowise/
+/original_stfr/
+# Private source export; only the generated, reviewable JSON template is committed.
+/src/main/resources/assets/hbmstfr/structures/*.nbt
+__pycache__/
+*.pyc
+/retexture_tz/
+logs/
+
+# Local references and retired audio experiments.
+/docs/
+/samples/
+/errs.md

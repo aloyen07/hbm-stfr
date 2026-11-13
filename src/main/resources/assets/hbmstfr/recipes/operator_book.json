@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:book" },
+    { "item": "minecraft:paper" },
+    { "item": "minecraft:redstone" }
+  ],
+  "result": { "item": "hbmstfr:operator_book" }
+}

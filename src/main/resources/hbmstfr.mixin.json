@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "fun.aloyenz.stfr.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "target": "@env(MOD)",
+  "mixins": [
+    "MixinHbmBlockBaseRadiation",
+    "MixinHbmArcFurnaceLenses",
+    "MixinHbmLensRecipeRegistration"
+  ],
+  "minVersion": "0.8.7"
+}

@@ -1,0 +1,1 @@
+{"textures":{"particle":"hbmstfr:blocks/logic_monitor","screen":"hbmstfr:blocks/logic_monitor"},"elements":[{"from":[0,0,0],"to":[16,2,16],"faces":{"up":{"texture":"#screen"},"down":{"texture":"#screen"},"north":{"texture":"#screen"},"south":{"texture":"#screen"},"east":{"texture":"#screen"},"west":{"texture":"#screen"}}}]}

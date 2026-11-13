@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "closed=false": {
+      "model": "hbmstfr:stfr_privileges"
+    },
+    "closed=true": {
+      "model": "hbmstfr:stfr_privileges"
+    }
+  }
+}

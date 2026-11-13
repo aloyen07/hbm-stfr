@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "hbm:blocks/block_tcalloy",
+    "top": "hbm:blocks/block_tcalloy",
+    "side": "hbm:blocks/block_tcalloy",
+    "particle": "hbm:blocks/block_tcalloy"
+  }
+}

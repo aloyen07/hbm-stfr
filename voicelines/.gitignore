@@ -1,0 +1,7 @@
+raw/
+output/
+.venv/
+__pycache__/
+*.pyc
+.build_state.lock
+build_state.json.tmp

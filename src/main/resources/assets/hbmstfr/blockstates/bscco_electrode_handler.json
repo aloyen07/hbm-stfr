@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": { "model": "hbmstfr:bscco_electrode_handler", "x": 90 },
+    "facing=east":  { "model": "hbmstfr:bscco_electrode_handler", "x": 90, "y": 90 },
+    "facing=south": { "model": "hbmstfr:bscco_electrode_handler", "x": 90, "y": 180 },
+    "facing=west":  { "model": "hbmstfr:bscco_electrode_handler", "x": 90, "y": 270 },
+    "facing=up":    { "model": "hbmstfr:bscco_electrode_handler" },
+    "facing=down":  { "model": "hbmstfr:bscco_electrode_handler", "x": 180 }
+  }
+}

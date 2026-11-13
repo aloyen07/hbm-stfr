@@ -1,0 +1,31 @@
+{
+  "default_language": "en",
+  "languages": {
+    "ru": {
+      "minecraft_locales": ["ru_ru"],
+      "voice": "ru-RU-DmitryNeural",
+      "rate": "-5%",
+      "pitch": "-20Hz",
+      "edge_pitch": "-8Hz"
+    },
+    "en": {
+      "minecraft_locales": ["en_us", "en_gb"],
+      "voice": "en-US-ChristopherNeural",
+      "rate": "-5%",
+      "pitch": "-20Hz",
+      "edge_pitch": "-8Hz"
+    }
+  },
+  "effects": {
+    "input_gain_db": 12,
+    "gain_db": 0,
+    "reverb_room_size": 0.8,
+    "reverb_width": 1.0,
+    "reverb_damping": 0.5,
+    "delay_interval": 0.02,
+    "delay_feedback": 0.7,
+    "wet_mix": 0.7,
+    "pre_delay_ms": 0,
+    "after_delay_ms": 3000
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "modid": "hbmstfr",
+    "name": "HBM:STFR",
+    "description": "STFR reactor port for Minecraft Forge 1.12.2 and HBM:CE. Port and additional development by Aloyenz. Original STFR / TERF by jona23: https://github.com/jona23EE/TERF_datapack. Licensed under PolyForm Noncommercial 1.0.0; see LICENSE and NOTICE in this JAR. Foxes is power btw.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "dependencies": [
+      "hbm"
+    ],
+    "authorList": [
+      "Aloyenz"
+    ],
+    "credits": "Original STFR reactor design and TERF datapack implementation by jona23. https://github.com/jona23EE/TERF_datapack — ported with permission. See CREDITS and NOTICE in this JAR.",
+    "license": "PolyForm-Noncommercial-1.0.0"
+  }
+]

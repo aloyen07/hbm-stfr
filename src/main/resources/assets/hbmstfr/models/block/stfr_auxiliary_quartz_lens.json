@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "hbmstfr:blocks/stfr_auxiliary_quartz_lens"
+  }
+}

@@ -1,0 +1,15 @@
+HBM:STFR
+
+Required Notice: Minecraft Forge/HBM port and additional development by Aloyenz.
+Required Notice: Original STFR reactor design and TERF datapack implementation by jona23.
+Required Notice: Original project: https://github.com/jona23EE/TERF_datapack
+
+HBM:STFR is offered under the PolyForm Noncommercial License 1.0.0 in LICENSE,
+except for third-party materials identified in THIRD_PARTY_NOTICES.
+The original STFR reactor is ported with jona23's permission and approval of
+this license for the port. This does not change the license of the upstream
+TERF_datapack repository.
+
+Retain the Required Notice lines above when distributing any part of the
+licensed software, as required by the license. See CREDITS for contributor
+roles and THIRD_PARTY_NOTICES for separately licensed components.

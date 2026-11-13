@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "hbmstfr:stair_rotation",
+  "ingredients": [
+    {
+      "item": "hbmstfr:technetium_steel_stairs"
+    }
+  ],
+  "result": {
+    "item": "hbmstfr:vertical_technetium_steel_stairs",
+    "count": 1
+  }
+}

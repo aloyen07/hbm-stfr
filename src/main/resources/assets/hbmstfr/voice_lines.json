@@ -1,0 +1,882 @@
+{
+  "message.hbmstfr.autopilot.crash": {
+    "ru": "Автопилот аварийно отключился. Проверьте состояние реактора.",
+    "en": "Autopilot disengaged due to an emergency. Check reactor status."
+  },
+  "message.hbmstfr.autopilot.destabilizer": {
+    "ru": "Дестабилизатор взял управление реактором. Автопилот отключён.",
+    "en": "Destabilizer took control of the reactor. Autopilot disengaged."
+  },
+  "message.hbmstfr.autopilot.disabled": {
+    "ru": "Автопилот выключен",
+    "en": "Autopilot disabled"
+  },
+  "message.hbmstfr.autopilot.enabled.1": {
+    "ru": "Включён автопилот первого уровня.",
+    "en": "Autopilot enabled (level 1)"
+  },
+  "message.hbmstfr.autopilot.enabled.2": {
+    "ru": "Включён автопилот второго уровня.",
+    "en": "Autopilot enabled (level 2)"
+  },
+  "message.hbmstfr.autopilot.enabled.3": {
+    "ru": "Включён автопилот третьего уровня.",
+    "en": "Autopilot enabled (level 3)"
+  },
+  "message.hbmstfr.autopilot.stopping": {
+    "ru": "Автопилот останавливает реактор",
+    "en": "Autopilot is shutting down the reactor"
+  },
+  "message.hbmstfr.failure.case_breach": {
+    "ru": "ПРОРЫВ КОРПУСА! Нарушена целостность реактора!",
+    "en": "CASE BREACH! Reactor casing ruptured!"
+  },
+  "message.hbmstfr.failure.countdown.2.5m": {
+    "ru": "До детонации две минуты тридцать секунд.",
+    "en": "Detonation in two minutes and thirty seconds."
+  },
+  "message.hbmstfr.failure.countdown.30s": {
+    "ru": "До детонации тридцать секунд.",
+    "en": "Detonation in thirty seconds."
+  },
+  "message.hbmstfr.failure.countdown.3m": {
+    "ru": "До детонации три минуты.",
+    "en": "Detonation in three minutes."
+  },
+  "message.hbmstfr.failure.countdown.4.5m": {
+    "ru": "До детонации четыре минуты тридцать секунд.",
+    "en": "Detonation in four minutes and thirty seconds."
+  },
+  "message.hbmstfr.failure.countdown.4m": {
+    "ru": "До детонации четыре минуты.",
+    "en": "Detonation in four minutes."
+  },
+  "message.hbmstfr.failure.countdown.5.5m": {
+    "ru": "До детонации пять минут тридцать секунд.",
+    "en": "Detonation in five minutes and thirty seconds."
+  },
+  "message.hbmstfr.failure.countdown.5m": {
+    "ru": "До детонации пять минут.",
+    "en": "Detonation in five minutes."
+  },
+  "message.hbmstfr.failure.countdown.60s": {
+    "ru": "До детонации шестьдесят секунд.",
+    "en": "Detonation in sixty seconds."
+  },
+  "message.hbmstfr.failure.failure": {
+    "ru": "Авария при запуске термоядерного реактора!",
+    "en": "Fusion reactor startup failure!"
+  },
+  "message.hbmstfr.failure.meltdown": {
+    "ru": "Щит первой ступени потерян! Эвакуируйтесь! Полная потеря удержания примерно через шестьдесят секунд.",
+    "en": "Stage One shield lost! Evacuate! Final containment failure in approximately sixty seconds."
+  },
+  "message.hbmstfr.failure.recovering": {
+    "ru": "Начата рестабилизация ядра, она завершится через 30 секунд.",
+    "en": "Core restabilization started. Completion expected in 30 seconds."
+  },
+  "message.hbmstfr.failure.recovery_available": {
+    "ru": "Аварийное восстановление доступно. Генерация остаётся отключённой.",
+    "en": "Emergency recovery available. Generation remains disabled."
+  },
+  "message.hbmstfr.failure.recovery_links": {
+    "ru": "Восстановление недоступно. Нарушена связь со стабилизаторами. Подключите минимум четыре стабилизатора к логической сети и повторно нажмите SSTB.",
+    "en": "Recovery unavailable. Stabilizer communication lost. Connect at least four stabilizers to the logic network, then press SSTB again."
+  },
+  "message.hbmstfr.failure.restabilized": {
+    "ru": "Ядро термоядерного реактора успешно рестабилизировано!",
+    "en": "Fusion reactor core restabilized successfully!"
+  },
+  "message.hbmstfr.failure.shelter": {
+    "ru": "Полная потеря удержания! Немедленно ищите укрытие!",
+    "en": "Total containment failure! Seek shelter immediately!"
+  },
+  "message.hbmstfr.failure.shield_failure": {
+    "ru": "Ошибка формирования щита! Угроза детонации ядра!",
+    "en": "Shield creation failure! Core detonation imminent!"
+  },
+  "message.hbmstfr.reactor.digamma.abort": {
+    "ru": "Дестабилизатор отключился. Сжатие ядра сбрасывается.",
+    "en": "Destabilizer disengaged. Core compression is resetting."
+  },
+  "message.hbmstfr.reactor.digamma.final": {
+    "ru": "Переход подтверждён. Стабилизаторы переходят в режим форсирования.",
+    "en": "Final digamma transition confirmed. Rotor overload initiated."
+  },
+  "message.hbmstfr.reactor.digamma.online": {
+    "ru": "Дигамма-режим активен. Выработка энергии восстановлена.",
+    "en": "DIGAMMA ONLINE. Core output resumed."
+  },
+  "message.hbmstfr.reactor.digamma.ready": {
+    "ru": "Буфер заряжен. Нажмите SSTB ещё раз для подтверждения перехода.",
+    "en": "SSTB buffer charged. Second SSTB confirmation required."
+  },
+  "message.hbmstfr.reactor.digamma.resonance": {
+    "ru": "Резонанс найден. Заряжается буфер подтверждения SSTB.",
+    "en": "Core resonance captured. Charging the SSTB confirmation buffer."
+  },
+  "message.hbmstfr.reactor.digamma.search": {
+    "ru": "Дестабилизатор ищет резонанс ядра.",
+    "en": "Digamma destabilizer engaged. Searching for core resonance."
+  },
+  "message.hbmstfr.reactor.fault.breakers": {
+    "ru": "Потеря системных выключателей при запуске.",
+    "en": "System breakers lost during startup."
+  },
+  "message.hbmstfr.reactor.fault.fuel": {
+    "ru": "Недостаточно доступного топлива. Инициирована остановка.",
+    "en": "Insufficient available fuel. Shutdown initiated."
+  },
+  "message.hbmstfr.reactor.fault.hatches": {
+    "ru": "Потеря блокировки люков. Инициирована остановка.",
+    "en": "Hatch lock lost. Shutdown initiated."
+  },
+  "message.hbmstfr.reactor.fault.seal": {
+    "ru": "Нарушение герметичности. Инициирована остановка.",
+    "en": "Containment seal failed. Shutdown initiated."
+  },
+  "message.hbmstfr.reactor.fault.turbines": {
+    "ru": "Потеря рабочих стабилизаторов. Инициирована остановка.",
+    "en": "Working stabilizers lost. Shutdown initiated."
+  },
+  "message.hbmstfr.reactor.maintenance.broken.0": {
+    "ru": "Ремонт просрочен: корпус, повреждённый блок разрушен.",
+    "en": "Maintenance overdue: case, defective block destroyed."
+  },
+  "message.hbmstfr.reactor.maintenance.broken.1": {
+    "ru": "Ремонт просрочен: стабилизатор U, повреждённый блок разрушен.",
+    "en": "Maintenance overdue: stabilizer U, defective block destroyed."
+  },
+  "message.hbmstfr.reactor.maintenance.broken.2": {
+    "ru": "Ремонт просрочен: стабилизатор S, повреждённый блок разрушен.",
+    "en": "Maintenance overdue: stabilizer S, defective block destroyed."
+  },
+  "message.hbmstfr.reactor.maintenance.broken.3": {
+    "ru": "Ремонт просрочен: стабилизатор E, повреждённый блок разрушен.",
+    "en": "Maintenance overdue: stabilizer E, defective block destroyed."
+  },
+  "message.hbmstfr.reactor.maintenance.broken.4": {
+    "ru": "Ремонт просрочен: стабилизатор N, повреждённый блок разрушен.",
+    "en": "Maintenance overdue: stabilizer N, defective block destroyed."
+  },
+  "message.hbmstfr.reactor.maintenance.broken.5": {
+    "ru": "Ремонт просрочен: стабилизатор W, повреждённый блок разрушен.",
+    "en": "Maintenance overdue: stabilizer W, defective block destroyed."
+  },
+  "message.hbmstfr.reactor.maintenance.broken.6": {
+    "ru": "Ремонт просрочен: стабилизатор D, повреждённый блок разрушен.",
+    "en": "Maintenance overdue: stabilizer D, defective block destroyed."
+  },
+  "message.hbmstfr.reactor.maintenance.fixed.0": {
+    "ru": "Обслуживание завершено: корпус.",
+    "en": "Maintenance completed: case."
+  },
+  "message.hbmstfr.reactor.maintenance.fixed.1": {
+    "ru": "Обслуживание завершено: стабилизатор U.",
+    "en": "Maintenance completed: stabilizer U."
+  },
+  "message.hbmstfr.reactor.maintenance.fixed.2": {
+    "ru": "Обслуживание завершено: стабилизатор S.",
+    "en": "Maintenance completed: stabilizer S."
+  },
+  "message.hbmstfr.reactor.maintenance.fixed.3": {
+    "ru": "Обслуживание завершено: стабилизатор E.",
+    "en": "Maintenance completed: stabilizer E."
+  },
+  "message.hbmstfr.reactor.maintenance.fixed.4": {
+    "ru": "Обслуживание завершено: стабилизатор N.",
+    "en": "Maintenance completed: stabilizer N."
+  },
+  "message.hbmstfr.reactor.maintenance.fixed.5": {
+    "ru": "Обслуживание завершено: стабилизатор W.",
+    "en": "Maintenance completed: stabilizer W."
+  },
+  "message.hbmstfr.reactor.maintenance.fixed.6": {
+    "ru": "Обслуживание завершено: стабилизатор D.",
+    "en": "Maintenance completed: stabilizer D."
+  },
+  "message.hbmstfr.reactor.maintenance.no_lubricant": {
+    "ru": "Нет смазки: возможны дефекты корпуса и стабилизаторов.",
+    "en": "No lubricant: case and stabilizers may develop maintenance defects."
+  },
+  "message.hbmstfr.reactor.maintenance.required.0": {
+    "ru": "Требуется обслуживание: корпус. Найдите искрящий блок и примените ключ 5 раз.",
+    "en": "Maintenance required: case. Find the sparking block and use a wrench 5 times."
+  },
+  "message.hbmstfr.reactor.maintenance.required.1": {
+    "ru": "Требуется обслуживание: стабилизатор U. Найдите искрящий блок и примените ключ 5 раз.",
+    "en": "Maintenance required: stabilizer U. Find the sparking block and use a wrench 5 times."
+  },
+  "message.hbmstfr.reactor.maintenance.required.2": {
+    "ru": "Требуется обслуживание: стабилизатор S. Найдите искрящий блок и примените ключ 5 раз.",
+    "en": "Maintenance required: stabilizer S. Find the sparking block and use a wrench 5 times."
+  },
+  "message.hbmstfr.reactor.maintenance.required.3": {
+    "ru": "Требуется обслуживание: стабилизатор E. Найдите искрящий блок и примените ключ 5 раз.",
+    "en": "Maintenance required: stabilizer E. Find the sparking block and use a wrench 5 times."
+  },
+  "message.hbmstfr.reactor.maintenance.required.4": {
+    "ru": "Требуется обслуживание: стабилизатор N. Найдите искрящий блок и примените ключ 5 раз.",
+    "en": "Maintenance required: stabilizer N. Find the sparking block and use a wrench 5 times."
+  },
+  "message.hbmstfr.reactor.maintenance.required.5": {
+    "ru": "Требуется обслуживание: стабилизатор W. Найдите искрящий блок и примените ключ 5 раз.",
+    "en": "Maintenance required: stabilizer W. Find the sparking block and use a wrench 5 times."
+  },
+  "message.hbmstfr.reactor.maintenance.required.6": {
+    "ru": "Требуется обслуживание: стабилизатор D. Найдите искрящий блок и примените ключ 5 раз.",
+    "en": "Maintenance required: stabilizer D. Find the sparking block and use a wrench 5 times."
+  },
+  "message.hbmstfr.reactor.operation.case_blowout": {
+    "ru": "Прорыв корпуса реактора!",
+    "en": "Reactor case blowout!"
+  },
+  "message.hbmstfr.reactor.operation.case_explosion": {
+    "ru": "Взрыв корпуса от избыточного давления!",
+    "en": "Reactor case overpressure explosion!"
+  },
+  "message.hbmstfr.reactor.operation.coolant_leak": {
+    "ru": "Обнаружена недостаточная подача или утечка теплоносителя!",
+    "en": "Insufficient coolant intake or coolant leak detected!"
+  },
+  "message.hbmstfr.reactor.operation.grounding_fault": {
+    "ru": "Повреждены громоотводы стабилизаторов.",
+    "en": "Stabilizer lightning rods are damaged."
+  },
+  "message.hbmstfr.reactor.operation.radiation_shield_fault": {
+    "ru": "Повреждена радиационная защита реактора!",
+    "en": "Reactor radiation shielding is damaged!"
+  },
+  "message.hbmstfr.reactor.operation.steam_overpressure": {
+    "ru": "Паровой выход переполнен! Снизьте теплопередачу.",
+    "en": "Steam output overpressure! Lower heat transfer."
+  },
+  "message.hbmstfr.reactor.refueled.1": {
+    "ru": "Перезаправка стабилизатора U завершена.",
+    "en": "Stabilizer U refueling complete."
+  },
+  "message.hbmstfr.reactor.refueled.2": {
+    "ru": "Перезаправка стабилизатора S завершена.",
+    "en": "Stabilizer S refueling complete."
+  },
+  "message.hbmstfr.reactor.refueled.3": {
+    "ru": "Перезаправка стабилизатора E завершена.",
+    "en": "Stabilizer E refueling complete."
+  },
+  "message.hbmstfr.reactor.refueled.4": {
+    "ru": "Перезаправка стабилизатора N завершена.",
+    "en": "Stabilizer N refueling complete."
+  },
+  "message.hbmstfr.reactor.refueled.5": {
+    "ru": "Перезаправка стабилизатора W завершена.",
+    "en": "Stabilizer W refueling complete."
+  },
+  "message.hbmstfr.reactor.refueled.6": {
+    "ru": "Перезаправка стабилизатора D завершена.",
+    "en": "Stabilizer D refueling complete."
+  },
+  "message.hbmstfr.reactor.refueling.1": {
+    "ru": "Стабилизатор U отключён для перезаправки.",
+    "en": "Fusion Reactor Stabilizer U Has Been Shut Down For Refueling!"
+  },
+  "message.hbmstfr.reactor.refueling.2": {
+    "ru": "Стабилизатор S отключён для перезаправки.",
+    "en": "Fusion Reactor Stabilizer S Has Been Shut Down For Refueling!"
+  },
+  "message.hbmstfr.reactor.refueling.3": {
+    "ru": "Стабилизатор E отключён для перезаправки.",
+    "en": "Fusion Reactor Stabilizer E Has Been Shut Down For Refueling!"
+  },
+  "message.hbmstfr.reactor.refueling.4": {
+    "ru": "Стабилизатор N отключён для перезаправки.",
+    "en": "Fusion Reactor Stabilizer N Has Been Shut Down For Refueling!"
+  },
+  "message.hbmstfr.reactor.refueling.5": {
+    "ru": "Стабилизатор W отключён для перезаправки.",
+    "en": "Fusion Reactor Stabilizer W Has Been Shut Down For Refueling!"
+  },
+  "message.hbmstfr.reactor.refueling.6": {
+    "ru": "Стабилизатор D отключён для перезаправки.",
+    "en": "Fusion Reactor Stabilizer D Has Been Shut Down For Refueling!"
+  },
+  "message.hbmstfr.reactor.restored.0": {
+    "ru": "Корпус реактора восстановлен.",
+    "en": "Reactor casing repaired."
+  },
+  "message.hbmstfr.reactor.restored.1": {
+    "ru": "Стабилизатор U полностью работоспособен. Осталось восстановить герметизацию.",
+    "en": "Stabilizer U is fully functional. SEAL blocks still require repair."
+  },
+  "message.hbmstfr.reactor.restored.2": {
+    "ru": "Стабилизатор S полностью работоспособен. Осталось восстановить герметизацию.",
+    "en": "Stabilizer S is fully functional. SEAL blocks still require repair."
+  },
+  "message.hbmstfr.reactor.restored.3": {
+    "ru": "Стабилизатор E полностью работоспособен. Осталось восстановить герметизацию.",
+    "en": "Stabilizer E is fully functional. SEAL blocks still require repair."
+  },
+  "message.hbmstfr.reactor.restored.4": {
+    "ru": "Стабилизатор N полностью работоспособен. Осталось восстановить герметизацию.",
+    "en": "Stabilizer N is fully functional. SEAL blocks still require repair."
+  },
+  "message.hbmstfr.reactor.restored.5": {
+    "ru": "Стабилизатор W полностью работоспособен. Осталось восстановить герметизацию.",
+    "en": "Stabilizer W is fully functional. SEAL blocks still require repair."
+  },
+  "message.hbmstfr.reactor.restored.6": {
+    "ru": "Стабилизатор D полностью работоспособен. Осталось восстановить герметизацию.",
+    "en": "Stabilizer D is fully functional. SEAL blocks still require repair."
+  },
+  "message.hbmstfr.reactor.sealed.1": {
+    "ru": "Стабилизатор U полностью восстановлен, включая герметизацию.",
+    "en": "Stabilizer U is fully restored, including SEAL blocks."
+  },
+  "message.hbmstfr.reactor.sealed.2": {
+    "ru": "Стабилизатор S полностью восстановлен, включая герметизацию.",
+    "en": "Stabilizer S is fully restored, including SEAL blocks."
+  },
+  "message.hbmstfr.reactor.sealed.3": {
+    "ru": "Стабилизатор E полностью восстановлен, включая герметизацию.",
+    "en": "Stabilizer E is fully restored, including SEAL blocks."
+  },
+  "message.hbmstfr.reactor.sealed.4": {
+    "ru": "Стабилизатор N полностью восстановлен, включая герметизацию.",
+    "en": "Stabilizer N is fully restored, including SEAL blocks."
+  },
+  "message.hbmstfr.reactor.sealed.5": {
+    "ru": "Стабилизатор W полностью восстановлен, включая герметизацию.",
+    "en": "Stabilizer W is fully restored, including SEAL blocks."
+  },
+  "message.hbmstfr.reactor.sealed.6": {
+    "ru": "Стабилизатор D полностью восстановлен, включая герметизацию.",
+    "en": "Stabilizer D is fully restored, including SEAL blocks."
+  },
+  "message.hbmstfr.reactor.shutdown.abort": {
+    "ru": "Остановка отменена возвращением ключа.",
+    "en": "Shutdown aborted by reinserting the key."
+  },
+  "message.hbmstfr.reactor.shutdown.breakers": {
+    "ru": "Отключение системных выключателей.",
+    "en": "Disconnecting system breakers."
+  },
+  "message.hbmstfr.reactor.shutdown.complete": {
+    "ru": "Реактор остановлен.",
+    "en": "Reactor shutdown complete."
+  },
+  "message.hbmstfr.reactor.shutdown.cooling": {
+    "ru": "Охлаждение реактора.",
+    "en": "Cooling the reactor."
+  },
+  "message.hbmstfr.reactor.shutdown.dirty": {
+    "ru": "Обнаружена разгерметизация при остановке реактора. После разрушения ядра ожидается сильное радиоактивное загрязнение.",
+    "en": "Containment breach detected during shutdown. Severe radioactive contamination is expected after core destruction."
+  },
+  "message.hbmstfr.reactor.shutdown.prime": {
+    "ru": "Начата штатная остановка реактора.",
+    "en": "Normal reactor shutdown initiated."
+  },
+  "message.hbmstfr.reactor.shutdown.shield": {
+    "ru": "Отключение защитного контура.",
+    "en": "Disabling the protective circuit."
+  },
+  "message.hbmstfr.reactor.shutdown.shield_unsafe": {
+    "ru": "Штатная остановка запрещена: щит нестабилен.",
+    "en": "Normal shutdown blocked: the shield is unstable."
+  },
+  "message.hbmstfr.reactor.shutdown.stabilizing": {
+    "ru": "Стабилизация реактора перед остановкой.",
+    "en": "Stabilizing reactor before shutdown."
+  },
+  "message.hbmstfr.reactor.shutdown.vacuuming": {
+    "ru": "Сбор остаточного топлива.",
+    "en": "Recovering residual fuel."
+  },
+  "message.hbmstfr.reactor.shutdown.vacuuming_fail": {
+    "ru": "Корпус повреждён: остаточное топливо не удалось собрать.",
+    "en": "Containment vessel damage: failed to recover remaining fuel."
+  },
+  "message.hbmstfr.reactor.start.abort": {
+    "ru": "Пусковая последовательность прервана.",
+    "en": "Startup sequence aborted."
+  },
+  "message.hbmstfr.reactor.start.abort_auto": {
+    "ru": "Время подтверждения истекло. Запуск отменён.",
+    "en": "Confirmation timeout. Startup cancelled."
+  },
+  "message.hbmstfr.reactor.start.abort_breakers": {
+    "ru": "Силовые цепи недоступны. Запуск прерван.",
+    "en": "Main circuits unavailable. Startup aborted."
+  },
+  "message.hbmstfr.reactor.start.abort_manual": {
+    "ru": "Получена команда отмены. Розжиг отменён.",
+    "en": "Operator abort received. Ignition cancelled."
+  },
+  "message.hbmstfr.reactor.start.abort_power": {
+    "ru": "Отказ пускового питания. Розжиг прерван.",
+    "en": "Startup power failure. Ignition aborted."
+  },
+  "message.hbmstfr.reactor.start.breakers": {
+    "ru": "Силовые цепи замкнуты. Ожидается подтверждение.",
+    "en": "Main circuits closed. Ready for confirmation."
+  },
+  "message.hbmstfr.reactor.start.breakers_fail": {
+    "ru": "Силовые цепи разомкнуты. Запуск приостановлен.",
+    "en": "Main circuits open. Startup on hold."
+  },
+  "message.hbmstfr.reactor.start.complete": {
+    "ru": "Стабилизаторный термоядерный реактор в работе.",
+    "en": "Stabilizers Thermonuclear Fusion Reactor is now online."
+  },
+  "message.hbmstfr.reactor.start.confirm": {
+    "ru": "Запуск подтверждён. Покиньте реакторную камеру. При неисправности существует риск получения травм.",
+    "en": "Startup confirmed. Clear the reactor chamber. Risk of injury in the event of a malfunction."
+  },
+  "message.hbmstfr.reactor.start.ignition": {
+    "ru": "Термоядерный розжиг подтверждён. Плазменное ядро сформировано.",
+    "en": "Fusion ignition confirmed. Plasma core established."
+  },
+  "message.hbmstfr.reactor.start.injecting": {
+    "ru": "Начинается впрыск топлива.",
+    "en": "Fuel injection commencing."
+  },
+  "message.hbmstfr.reactor.start.lasers": {
+    "ru": "Лазеры накачки включены. Начинается розжиг.",
+    "en": "Power lasers engaged. Initiating ignition."
+  },
+  "message.hbmstfr.reactor.start.prime": {
+    "ru": "Протокол запуска инициирован. Ожидается подтверждение.",
+    "en": "Startup protocol initiated. Awaiting confirmation."
+  },
+  "message.hbmstfr.reactor.start.shield": {
+    "ru": "Поле удержания включается.",
+    "en": "Confinement field energizing."
+  },
+  "message.hbmstfr.reactor.start.stabilization_loss": {
+    "ru": "Система удержания недоступна. Розжиг заблокирован.",
+    "en": "Confinement unavailable. Ignition inhibited."
+  },
+  "message.hbmstfr.reactor.start.systems": {
+    "ru": "Все шесть стабилизаторов готовы. Системы удержания в ожидании.",
+    "en": "All six stabilizers ready. Confinement systems standing by."
+  },
+  "message.hbmstfr.reactor.start.systems_error": {
+    "ru": "Внимание. Резерв удержания снижен.",
+    "en": "Warning. Reduced confinement redundancy."
+  },
+  "message.hbmstfr.reactor.warn.case_breach": {
+    "ru": "Корпус негерметичен. Найдите и устраните повреждение.",
+    "en": "Fusion Reactor Case Breach Detected!"
+  },
+  "message.hbmstfr.reactor.warn.case_pressure_critical": {
+    "ru": "Критическое давление в корпусе. Возможен разрыв.",
+    "en": "Fusion Reactor Case Pressure Critical! Case Failure Imminent!"
+  },
+  "message.hbmstfr.reactor.warn.case_pressure_high": {
+    "ru": "Давление в корпусе выше рабочего диапазона. Проверьте отвод газа.",
+    "en": "Fusion Reactor Case Pressure Exceeding Recommended Safe Parameters!"
+  },
+  "message.hbmstfr.reactor.warn.case_temp_critical": {
+    "ru": "Температура корпуса критическая. Возможен разрыв.",
+    "en": "Fusion Reactor Case Temperature Critical! Case Degradation Imminent!"
+  },
+  "message.hbmstfr.reactor.warn.case_temp_high": {
+    "ru": "Корпус перегревается. Усильте охлаждение.",
+    "en": "Fusion Reactor Case Temperature Exceeding Recommended Safe Parameters!"
+  },
+  "message.hbmstfr.reactor.warn.coolant_critical": {
+    "ru": "Запас охлаждающей жидкости критически мал. Корпус перегревается.",
+    "en": "Coolant level critical. The reactor casing is overheating."
+  },
+  "message.hbmstfr.reactor.warn.coolant_low": {
+    "ru": "Мало охлаждающей жидкости. Проверьте её подачу.",
+    "en": "Coolant level low. Check the coolant supply."
+  },
+  "message.hbmstfr.reactor.warn.fuel_critical": {
+    "ru": "Топливо в капсулах реактора на критическом уровне! Впрыск может внезапно прекратиться!",
+    "en": "Fusion Reactor Capsule Fuel Levels Critically Low! Fuel Injection May Cutoff Unexpectedly!"
+  },
+  "message.hbmstfr.reactor.warn.fuel_low": {
+    "ru": "В капсулах реактора мало топлива. Рекомендуется дозаправка.",
+    "en": "Fusion Reactor Capsule Fuel Levels Low. Refueling The Reactor Is Recommended."
+  },
+  "message.hbmstfr.reactor.warn.polonium_core_high": {
+    "ru": "В ядре слишком высокая концентрация полония. Уменьшите подачу топлива.",
+    "en": "Polonium concentration in the core is too high. Reduce the fuel feed."
+  },
+  "message.hbmstfr.reactor.warn.pressure_critical": {
+    "ru": "Давление ядра слишком низкое. Щит теряет устойчивость.",
+    "en": "Containment Shield Rigidity Lost Due To Extremely Low Pressure Forces! Shield Collapse Imminent!"
+  },
+  "message.hbmstfr.reactor.warn.pressure_high": {
+    "ru": "Давление ядра выше рабочего диапазона.",
+    "en": "Fusion Reactor Core Pressure Exceeding Recommended Safe Parameters!"
+  },
+  "message.hbmstfr.reactor.warn.pressure_low": {
+    "ru": "Давление ядра ниже рабочего диапазона.",
+    "en": "Fusion Reactor Core Pressure Below Recommended Shield Rigidity Margins!"
+  },
+  "message.hbmstfr.reactor.warn.shield_25": {
+    "ru": "Интенсивность удерживающего щита низкая.",
+    "en": "Containment shield intensity is low."
+  },
+  "message.hbmstfr.reactor.warn.shield_50": {
+    "ru": "Удерживающий щит всё ещё недостаточно силён.",
+    "en": "Containment shield strength is still insufficient."
+  },
+  "message.hbmstfr.reactor.warn.shield_75": {
+    "ru": "Удерживающий щит восстанавливает рабочую интенсивность.",
+    "en": "Containment shield intensity is approaching its operating level."
+  },
+  "message.hbmstfr.reactor.warn.shield_critical": {
+    "ru": "Щит почти разрушен. Возможна потеря удержания ядра.",
+    "en": "Reactor Containment Shield Intensity Critical! Shield Failure Imminent!"
+  },
+  "message.hbmstfr.reactor.warn.shield_stress_critical": {
+    "ru": "Щит теряет прочность из-за перегрузки.",
+    "en": "Fusion Reactor Shield Stress Critical! Shield Intensity Degradation Detected!"
+  },
+  "message.hbmstfr.reactor.warn.shield_stress_high": {
+    "ru": "Нагрузка на щит повышена. Проверьте давление и вращение ядра.",
+    "en": "Fusion Reactor Shield Stress High! Check the pressure, spin and rigidity stress displays."
+  },
+  "message.hbmstfr.reactor.warn.spin_high": {
+    "ru": "Вращение ядра слишком быстрое. Нагрузка на щит растёт.",
+    "en": "Fusion Reactor Core Spin Exceeding Recommended Safe Parameters! Shield stress rising exponentially!"
+  },
+  "message.hbmstfr.reactor.warn.spin_low": {
+    "ru": "Вращение ядра слишком медленное. Проверьте настройку стабилизаторов.",
+    "en": "Fusion Reactor Core Spin Level Below Recommended Safe Parameters!"
+  },
+  "message.hbmstfr.reactor.warn.steam_blocked": {
+    "ru": "Вывод пара заполнен. Освободите выходной бак или проверьте трубы.",
+    "en": "Fusion Reactor Steam Outtake Buffer Full! Check heat transfer and pipes."
+  },
+  "message.hbmstfr.reactor.warn.temp_high": {
+    "ru": "Температура ядра выше рабочего диапазона. Снизьте нагрев.",
+    "en": "Fusion Reactor Core Temperature Over The Reactivity Peak!"
+  },
+  "message.hbmstfr.reactor.warn.temp_low": {
+    "ru": "Температура ядра ниже рабочего диапазона. Реакция ослабевает.",
+    "en": "Fusion Reactor Core Temperature Below Reactivity Peak! Core Reactivity Dropping Rapidly."
+  },
+  "message.hbmstfr.reactor.warn.turbines_damaged": {
+    "ru": "Стабилизатор повреждён. Проверьте конструкцию анализатором.",
+    "en": "Fusion Reactor Turbine Damage Detected!"
+  },
+  "message.hbmstfr.reactor.warn.turbines_lost": {
+    "ru": "Нет рабочих стабилизаторов. Проверьте их конструкцию.",
+    "en": "Connection To Turbines Lost!"
+  },
+  "message.hbmstfr.reactor.warn.yaronite_core_high": {
+    "ru": "Яронит задерживается в ядре. Проверьте вывод через порт.",
+    "en": "Yaronite is accumulating in the core. Check product output from the port."
+  },
+  "message.hbmstfr.scene.manual_restabilization.3610": {
+    "ru": "До отказа вспомогательного щита: пять секунд.",
+    "en": "Auxiliary shield failure in five seconds."
+  },
+  "message.hbmstfr.scene.monitoring_error": {
+    "ru": "Ошибка мониторинга реактора!",
+    "en": "Reactor monitoring error!"
+  },
+  "message.hbmstfr.scene.overload.321": {
+    "ru": "Установите вспомогательные кварцевые линзы вместо плазменных минимум в четырёх стабилизаторах, включите ключ и нажмите SSTB.",
+    "en": "Replace plasma lenses with auxiliary quartz lenses in at least four stabilizers, turn the key and press SSTB."
+  },
+  "message.hbmstfr.scene.reaction_loss.451": {
+    "ru": "Обнаружено повреждение излучателей стабилизаторов.",
+    "en": "Damage to stabilizer emitters detected."
+  },
+  "message.hbmstfr.scene.reaction_loss.452": {
+    "ru": "Плазменные линзы замёрзли.",
+    "en": "The plasma lenses have frozen."
+  },
+  "message.hbmstfr.scene.reaction_loss.453": {
+    "ru": "Верните штатные блоки излучателей.",
+    "en": "Restore the original emitter blocks."
+  },
+  "message.hbmstfr.scene.reaction_loss.454": {
+    "ru": "Восстановите излучатели минимум в пяти стабилизаторах.",
+    "en": "Restore emitters in at least five stabilizers immediately!"
+  },
+  "message.hbmstfr.scene.reaction_loss.455": {
+    "ru": "Включите ключ и нажмите SSTB для повторного розжига.",
+    "en": "Turn the key and press SSTB to reignite the reactor."
+  },
+  "message.hbmstfr.scene.self_aborted": {
+    "ru": "Протокол самоуничтожения отменён.",
+    "en": "Reactor self-destruct protocol aborted."
+  },
+  "message.hbmstfr.scene.self_destruct.100": {
+    "ru": "Протокол самоуничтожения инициализирован...",
+    "en": "Self-Destruct Protocol Has Been Initialized..."
+  },
+  "message.hbmstfr.scene.self_destruct.2405": {
+    "ru": "Протокол самоуничтожения вступил в действие.",
+    "en": "Self-Destruct Protocol Is Now In Effect."
+  },
+  "message.hbmstfr.scene.self_destruct.2800": {
+    "ru": "Ограничения мощности стабилизаторов сняты. Начато форсирование на максимальном уровне мощности.",
+    "en": "Stabilizer power limits removed. Maximum-power overdrive initiated."
+  },
+  "message.hbmstfr.scene.self_destruct.3360": {
+    "ru": "Чрезмерная перегрузка стабилизаторов! Полное разрушение системы неизбежно. Приготовьтесь к удару!",
+    "en": "Extreme Stabilizer Overload! Total System Disassembly Imminent. Brace For Impact!"
+  },
+  "message.hbmstfr.scene.self_destruct.3700": {
+    "ru": "Ошибка мониторинга. Точка невозврата пройдена.",
+    "en": "Monitoring error. The point of no return has been reached."
+  },
+  "message.hbmstfr.scene.shield_preserved": {
+    "ru": "Щит реактора успешно сохранён.",
+    "en": "Reactor shield has been successfully preserved."
+  },
+  "message.hbmstfr.scene.shutdown_failure.752": {
+    "ru": "Установите и зафиксируйте капсулы с водой минимум в четырёх слотах.",
+    "en": "- Replace at least four fuel capsules with water-filled capsules and lock them."
+  },
+  "message.hbmstfr.scene.shutdown_failure.753": {
+    "ru": "Включите ключ и нажмите SSTB, пока мониторинг ещё работает.",
+    "en": "Set KEY to ON and press SSTB before monitoring fails to purge the core."
+  },
+  "message.hbmstfr.scene.stabilization_lost": {
+    "ru": "Обнаружена полная потеря стабилизации! Подготавливаем аварийные протоколы.",
+    "en": "Complete stabilization loss detected! Preparing contingency protocols."
+  },
+  "message.hbmstfr.scene.stabilizer_loss.300": {
+    "ru": "Найдены способы рестабилизации:",
+    "en": "Restabilization Options Found:"
+  },
+  "message.hbmstfr.scene.stabilizer_loss.301": {
+    "ru": "- Восстановите минимум три стабилизатора, включите ключ и подтвердите рестабилизацию через SSTB до их перегрева.",
+    "en": "- Repair At Least 3 Stabilizers, Then Confirm Restabilization Via SSTB Before The Stabilizers Overheat."
+  },
+  "message.hbmstfr.scene.stfr.manual_restab.attempt_aux_shield": {
+    "ru": "Попытка формирования вспомогательного щита удержания!",
+    "en": "Attempting To Form Auxiliary Containment Shield!"
+  },
+  "message.hbmstfr.scene.stfr.manual_restab.aux_shield_formed": {
+    "ru": "Вспомогательный щит сформирован! Выполните следующие задачи до его разрушения:",
+    "en": "Auxiliary Containment Shield Formed! Please Attempt The Following Tasks Before The Auxiliary Shield Collapses:"
+  },
+  "message.hbmstfr.scene.stfr.manual_restab.breakers": {
+    "ru": "Текущая задача: замкните все рубильники реактора.",
+    "en": "Current objective: engage all reactor breakers."
+  },
+  "message.hbmstfr.scene.stfr.manual_restab.confirm": {
+    "ru": "Рестабилизация подтверждена. Запускаем скачок мощности для сжатия вспомогательного поля...",
+    "en": "Restabilization confirmed. Commencing a power surge for auxiliary field compression..."
+  },
+  "message.hbmstfr.scene.stfr.manual_restab.disconnect_panel": {
+    "ru": "Текущая задача: отключите панель управления от мейнфрейма.",
+    "en": "Current Objective: Disconnect Control Panel Via Mainframe To Bypass Security Measures"
+  },
+  "message.hbmstfr.scene.stfr.manual_restab.fail": {
+    "ru": "Ручная рестабилизация не удалась! Вспомогательный щит потерян. Полный отказ удержания неизбежен!",
+    "en": "Manual restabilization failed! Auxiliary shield lost. Total containment failure imminent!"
+  },
+  "message.hbmstfr.scene.stfr.manual_restab.fail_in_10s": {
+    "ru": "До отказа вспомогательного щита: десять секунд.",
+    "en": "Auxiliary shield failure in ten seconds."
+  },
+  "message.hbmstfr.scene.stfr.manual_restab.fail_in_2m": {
+    "ru": "До отказа вспомогательного щита: две минуты.",
+    "en": "Auxiliary shield failure in two minutes."
+  },
+  "message.hbmstfr.scene.stfr.manual_restab.fail_in_30s": {
+    "ru": "До отказа вспомогательного щита: тридцать секунд.",
+    "en": "Auxiliary shield failure in thirty seconds."
+  },
+  "message.hbmstfr.scene.stfr.manual_restab.fail_in_60s": {
+    "ru": "До отказа вспомогательного щита: шестьдесят секунд.",
+    "en": "Auxiliary shield failure in sixty seconds."
+  },
+  "message.hbmstfr.scene.stfr.manual_restab.reconnect_panel": {
+    "ru": "Текущая задача: снова подключите панель управления к мейнфрейму.",
+    "en": "Current objective: reconnect the control panel through Mainframe."
+  },
+  "message.hbmstfr.scene.stfr.manual_restab.replace_lenses": {
+    "ru": "Текущая задача: верните плазменные линзы вместо вспомогательных кварцевых.",
+    "en": "Current task: restore the plasma lenses in place of the auxiliary quartz lenses."
+  },
+  "message.hbmstfr.scene.stfr.manual_restab.restabilize": {
+    "ru": "Ядро успешно рестабилизировано! Выключите реактор для немедленного ремонта.",
+    "en": "Reactor core restabilized successfully! Shut down the reactor for immediate repairs."
+  },
+  "message.hbmstfr.scene.stfr.manual_restab.sstb": {
+    "ru": "Текущая задача: восстановите два стабилизатора, включите ключ и нажмите SSTB.",
+    "en": "Current objective: restore at least two stabilizers, set KEY to ON, then press SSTB."
+  },
+  "message.hbmstfr.scene.stfr.overload.field": {
+    "ru": "Высокая вероятность отрыва плазмы из-за нестабильности магнитного поля во всей камере!",
+    "en": "High Probability Of Plasma Detachment Due To Chamber-Wide Magnetic Field Instability!"
+  },
+  "message.hbmstfr.scene.stfr.overload.int_shield_crit": {
+    "ru": "Нарушена устойчивость основного внутреннего щита (Бета)! Полный отказ удержания ядра неизбежен.",
+    "en": "Primary internal shield (Beta) compromised! Total core containment failure imminent."
+  },
+  "message.hbmstfr.scene.stfr.overload.overdrive": {
+    "ru": "Форсируем стабилизаторы для удержания внутреннего щита...",
+    "en": "Overdriving Stabilizers To Maintain Internal Shield Intensity..."
+  },
+  "message.hbmstfr.scene.stfr.overload.plasma": {
+    "ru": "Температура электромагнитных систем критическая! Ожидается непредсказуемое поведение плазмы.",
+    "en": "Electromagnetic Systems At Critical Temperature! Unpredictable Plasma Behaviour Expected."
+  },
+  "message.hbmstfr.scene.stfr.overload.restab_options": {
+    "ru": "Найдены способы рестабилизации:",
+    "en": "Restabilization Options Found:"
+  },
+  "message.hbmstfr.scene.stfr.overload.start": {
+    "ru": "Обнаружена потеря внешнего щита. Ядро перешло в состояние перегрузки!",
+    "en": "Outer shield failure detected. Reactor core has entered overload!"
+  },
+  "message.hbmstfr.scene.stfr.reaction_loss.collapse": {
+    "ru": "Обнаружено схлопывание щита реактора!",
+    "en": "Reactor shield collapse detected!"
+  },
+  "message.hbmstfr.scene.stfr.reaction_loss.instability": {
+    "ru": "КРАЙНЯЯ НЕСТАБИЛЬНОСТЬ ЯДРА! Прогнозируется высокоэнергетический взрыв примерно через тридцать секунд!",
+    "en": "EXTREME CORE INSTABILITY! Systems predict a high energy explosion in approximately thirty seconds!"
+  },
+  "message.hbmstfr.scene.stfr.reaction_loss.restab_complete": {
+    "ru": "Протокол повторного розжига термоядерного реактора завершён!",
+    "en": "Fusion reactor re-ignition protocol completed!"
+  },
+  "message.hbmstfr.scene.stfr.reaction_loss.restab_firing": {
+    "ru": "Лазеры форсированы для повторного розжига. Ожидайте резкого изменения параметров ядра.",
+    "en": "Lasers are overdriven for reactor re-ignition. Expect a sudden change in core conditions."
+  },
+  "message.hbmstfr.scene.stfr.reaction_loss.restab_options": {
+    "ru": "Найден способ восстановления!",
+    "en": "Action Found!"
+  },
+  "message.hbmstfr.scene.stfr.reaction_loss.restab_start": {
+    "ru": "Запущен протокол повторного розжига термоядерного реактора!",
+    "en": "Fusion reactor re-ignition protocol initiated!"
+  },
+  "message.hbmstfr.scene.stfr.reaction_loss.stabilizer_fail": {
+    "ru": "Обнаружен отказ роторов стабилизаторов! Вычисляем доступные варианты...",
+    "en": "Reactor Stabilizer Rotor Failure Detected! Calculating Currently Available Options..."
+  },
+  "message.hbmstfr.scene.stfr.shut_fail.diameter": {
+    "ru": "Ядро сжимается! Его вращение быстро нарастает.",
+    "en": "The core is compressing. Its spin is increasing rapidly."
+  },
+  "message.hbmstfr.scene.stfr.shut_fail.foreign": {
+    "ru": "В ядре обнаружено постороннее вещество! Системы могут вести себя непредсказуемо.",
+    "en": "Foreign Material Detected Within Reactor Core! Systems May Not Behave As Expected!"
+  },
+  "message.hbmstfr.scene.stfr.shut_fail.fusion": {
+    "ru": "Обнаружено образование нового вещества. Перенастройка систем.",
+    "en": "Formation of a new substance detected. Reconfiguring systems."
+  },
+  "message.hbmstfr.scene.stfr.shut_fail.ineffective": {
+    "ru": "Автоматическое выключение неэффективно! Требуется ручное вмешательство.",
+    "en": "Automatic Shutdown Ineffective! Manual Intervention Required."
+  },
+  "message.hbmstfr.scene.stfr.shut_fail.instability": {
+    "ru": "Крайняя нестабильность щита! Прогнозируется полный отказ удержания через тридцать секунд!",
+    "en": "Extreme shield instability! Systems predict a complete containment failure in thirty seconds!"
+  },
+  "message.hbmstfr.scene.stfr.shut_fail.monitoring_fail": {
+    "ru": "Полная потеря мониторинга! Анализируем предыдущие показания...",
+    "en": "Total Monitoring Failure! Analyzing previous stats..."
+  },
+  "message.hbmstfr.scene.stfr.shut_fail.permeability": {
+    "ru": "Щит перешёл в обратный режим!",
+    "en": "The shield has entered reverse operation!"
+  },
+  "message.hbmstfr.scene.stfr.shut_fail.pressure": {
+    "ru": "Давление ядра стремительно нарастает! Всем сотрудникам немедленно приступить к рестабилизации.",
+    "en": "Detecting Extreme Core Pressure Buildup! All Personnel Are To Attempt Re-stabilization Immediately."
+  },
+  "message.hbmstfr.scene.stfr.shut_fail.projection": {
+    "ru": "Усиливаем щит, чтобы предотвратить его схлопывание!",
+    "en": "Reinforcing the shield to prevent its collapse!"
+  },
+  "message.hbmstfr.scene.stfr.shut_fail.reactivity": {
+    "ru": "Обнаружен опасный рост реакции. Выполняем анализ.",
+    "en": "Dangerous reaction increase detected. Analysis in progress."
+  },
+  "message.hbmstfr.scene.stfr.shut_fail.restab_end": {
+    "ru": "Аварийное гашение после отказа выключения выполнено. Ядро реактора отключено.",
+    "en": "Shutdown failure recovery successful. Reactor core is now offline."
+  },
+  "message.hbmstfr.scene.stfr.shut_fail.restab_inject": {
+    "ru": "Вводим охлаждающую жидкость в ядро.",
+    "en": "Injecting coolant into the reactor core."
+  },
+  "message.hbmstfr.scene.stfr.shut_fail.restab_options": {
+    "ru": "Найдены способы рестабилизации:",
+    "en": "Re-stabilization Options Found:"
+  },
+  "message.hbmstfr.scene.stfr.shut_fail.restab_overdrive": {
+    "ru": "Форсируем поля топливных каналов для выброса содержимого ядра! Стабилизаторы будут повреждены.",
+    "en": "Overdriving Fuel Channel Fields For The Venting Of Core Contents! Stabilizer Damage Will Occur."
+  },
+  "message.hbmstfr.scene.stfr.shut_fail.restab_start": {
+    "ru": "Начат протокол аварийного гашения ядра.",
+    "en": "Emergency core purge protocol initiated."
+  },
+  "message.hbmstfr.scene.stfr.shut_fail.setpoint": {
+    "ru": "Автоматическая стабилизация невозможна. Требуется вмешательство.",
+    "en": "Automatic stabilization is impossible. Intervention required."
+  },
+  "message.hbmstfr.scene.stfr.shut_fail.start": {
+    "ru": "Невозможно продолжить штатное выключение: отказ отключения стабилизаторов!",
+    "en": "Cannot continue reactor shutdown: stabilizer shutdown failure!"
+  },
+  "message.hbmstfr.scene.stfr.shut_fail.temp_fail": {
+    "ru": "Невозможно измерить температуру ядра. Переходим на резервную оценку.",
+    "en": "Unable to measure core temperature. Switching to backup estimation."
+  },
+  "message.hbmstfr.scene.stfr.stab_loss.fail_in_1m": {
+    "ru": "До разрушения стабилизаторов: примерно одна минута.",
+    "en": "Estimated stabilizer destruction in one minute."
+  },
+  "message.hbmstfr.scene.stfr.stab_loss.fail_in_2m": {
+    "ru": "До разрушения стабилизаторов: примерно две минуты.",
+    "en": "Estimated stabilizer destruction in two minutes."
+  },
+  "message.hbmstfr.scene.stfr.stab_loss.fail_in_30s": {
+    "ru": "До разрушения стабилизаторов: примерно тридцать секунд.",
+    "en": "Estimated stabilizer destruction in thirty seconds."
+  },
+  "message.hbmstfr.scene.stfr.stab_loss.restab_options": {
+    "ru": "Обнаружена потеря устойчивости щита. Стабилизаторы переведены в аварийный режим.",
+    "en": "Loss of shield stability detected. Stabilizers switched to emergency operation."
+  },
+  "message.hbmstfr.scene.stfr.underload.backup_systems_online": {
+    "ru": "Резервные системы подключены.",
+    "en": "Backup Systems Online"
+  },
+  "message.hbmstfr.scene.stfr.underload.connecting_backup_systems": {
+    "ru": "Попытка подключения резервных систем. Ожидайте...",
+    "en": "Attempting To Connect Backup Systems, Standby..."
+  },
+  "message.hbmstfr.scene.stfr.underload.evacuate": {
+    "ru": "Критическая нагрузка на конструкцию! Возможен полный структурный отказ реактора. Немедленно эвакуируйтесь!",
+    "en": "Extreme Structural Stress, A Complete Reactor Structural Failure May Occur! Evacuate The Facility Immediately."
+  },
+  "message.hbmstfr.scene.stfr.underload.field_increasing": {
+    "ru": "Магнитное поле ядра быстро нарастает! Продолжаем наблюдение...",
+    "en": "Core Magnetic Field Rapidly Increasing! Monitoring..."
+  },
+  "message.hbmstfr.scene.stfr.underload.no_match": {
+    "ru": "Не удаётся подтвердить отключение ядра: совпадений в базе данных нет.",
+    "en": "Cannot Confirm Reactor Core Offline State: No Match Found In Database"
+  },
+  "message.hbmstfr.scene.stfr.underload.scanning": {
+    "ru": "Сканируем ядро для подтверждения его отключения...",
+    "en": "Scanning Reactor Core To Confirm Offline State..."
+  },
+  "message.hbmstfr.scene.stfr.underload.stabilization_failure": {
+    "ru": "Полный отказ стабилизации! Невозможно подтвердить отключение ядра.",
+    "en": "Complete Stabilization Failure! Cannot Confirm Reactor Core Offline State"
+  },
+  "message.hbmstfr.scene.stfr.underload.system_damage": {
+    "ru": "Значительные повреждения систем! Не удаётся получить параметры ядра.",
+    "en": "Major System Damage! Unable To Retrieve Reactor Core Vitals"
+  }
+}

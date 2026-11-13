@@ -1,0 +1,4 @@
+{
+  "parent": "block/stairs",
+  "textures": { "bottom": "hbmstfr:blocks/combine_steel_revited", "top": "hbmstfr:blocks/combine_steel_revited", "side": "hbmstfr:blocks/combine_steel_revited", "particle": "hbmstfr:blocks/combine_steel_revited" }
+}

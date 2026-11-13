@@ -1,0 +1,12 @@
+{
+  "default_language": "en",
+  "languages": {
+    "ru": [
+      "ru_ru"
+    ],
+    "en": [
+      "en_us",
+      "en_gb"
+    ]
+  }
+}

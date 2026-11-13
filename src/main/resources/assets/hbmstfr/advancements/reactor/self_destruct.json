@@ -1,0 +1,23 @@
+{
+  "parent": "hbmstfr:reactor/root",
+  "display": {
+    "icon": {
+      "item": "hbm:achievement_icon",
+      "data": 2
+    },
+    "title": {
+      "translate": "advancement.hbmstfr.self_destruct.title"
+    },
+    "description": {
+      "translate": "advancement.hbmstfr.self_destruct.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "event": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

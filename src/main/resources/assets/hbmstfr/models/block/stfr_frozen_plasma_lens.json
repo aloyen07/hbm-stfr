@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "hbmstfr:blocks/stfr_frozen_plasma_lens"
+  }
+}

@@ -1,0 +1,55 @@
+HBM:STFR — Third-party notices
+
+The project license applies to HBM:STFR contributions and the authorized
+STFR port. It does not replace the licenses of dependencies, embedded
+compatibility code, third-party music or upstream-derived assets.
+
+1. Original STFR / TERF
+   Author: jona23
+   https://github.com/jona23EE/TERF_datapack
+   The STFR port and use of PolyForm Noncommercial 1.0.0 for this port are
+   approved by jona23. The upstream repository retains its own terms.
+   The mandatory attribution is reproduced in NOTICE.
+
+2. JvmDowngrader compatibility API (embedded in the Java 8-compatible playable JAR)
+   Copyright (C) 2024 William Gray <jvmdowngrader@wagyourtail.xyz>
+   https://github.com/unimined/JvmDowngrader
+   Tool version used by the build: 1.3.6.
+   The build includes the API methods needed for Java 8 compatibility,
+   relocated under hbmstfr/xyz/wagyourtail/jvmdg/.
+   These components remain under their upstream LGPL terms, separately
+   from the PolyForm license of HBM:STFR.
+   License copy: LICENSES/JvmDowngrader-LGPL-2.1.txt
+   Upstream licensing: https://github.com/unimined/JvmDowngrader/blob/main/LICENSE.md
+   Upstream API source: https://github.com/unimined/JvmDowngrader/tree/main/java-api
+   The project source and Gradle scripts provide the build path for
+   recreating the unshaded Java 21 JAR and replacing the compatibility API.
+   The native java21 release does not embed this compatibility API.
+   The intermediate dev-java21 JAR is a build artifact, not a Forge runtime JAR.
+
+3. HBM:CE and HBM:Space (external dependencies; not embedded mod JARs)
+   https://github.com/Warfactory-Official/Hbm-s-Nuclear-Tech-CE
+   https://github.com/Warfactory-Official/Hbm-s-Nuclear-Tech-CE-Space
+   Upstream GPLv3 / LGPLv3 notices remain applicable to their components
+   and upstream-derived materials. Copies supplied with this project:
+   LICENSES/HBM-GPL-3.0.txt
+   LICENSES/HBM-LGPL-3.0.txt
+   The optional HBM:Space source checkout retains its upstream notices.
+
+4. Gradle Wrapper (repository build tooling)
+   https://github.com/gradle/gradle
+   Apache License, Version 2.0.
+   License copy: LICENSES/Gradle-Apache-2.0.txt
+   The wrapper is used for building and is not embedded in the playable JAR.
+
+5. Music and assets
+   Third-party recordings, including TERF edits, retain their authors'
+   rights and applicable permissions. HBM:STFR's PolyForm license does not
+   independently license or sublicense those recordings. See CREDITS for
+   the creator names available from the current music catalog.
+
+6. Other external dependencies and development tools
+   Forge, MixinBooter, Guava, JEI, OpenComputers, CTM, WorldEdit and
+   RetroFuturaGradle retain their own upstream licenses. They are resolved
+   separately by the build; their presence as dependencies does not place
+   them under HBM:STFR's project license.

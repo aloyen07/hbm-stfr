@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=up": { "model": "hbmstfr:technetium_electrode" },
+    "facing=down": { "model": "hbmstfr:technetium_electrode", "x": 180 },
+    "facing=north": { "model": "hbmstfr:technetium_electrode", "x": 90 },
+    "facing=south": { "model": "hbmstfr:technetium_electrode", "x": 90, "y": 180 },
+    "facing=west": { "model": "hbmstfr:technetium_electrode", "x": 90, "y": 270 },
+    "facing=east": { "model": "hbmstfr:technetium_electrode", "x": 90, "y": 90 }
+  }
+}

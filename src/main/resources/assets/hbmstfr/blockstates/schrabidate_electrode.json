@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=up": { "model": "hbmstfr:schrabidate_electrode" },
+    "facing=down": { "model": "hbmstfr:schrabidate_electrode", "x": 180 },
+    "facing=north": { "model": "hbmstfr:schrabidate_electrode", "x": 90 },
+    "facing=south": { "model": "hbmstfr:schrabidate_electrode", "x": 90, "y": 180 },
+    "facing=west": { "model": "hbmstfr:schrabidate_electrode", "x": 90, "y": 270 },
+    "facing=east": { "model": "hbmstfr:schrabidate_electrode", "x": 90, "y": 90 }
+  }
+}

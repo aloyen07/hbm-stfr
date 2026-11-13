@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "normal": {
+      "model": "hbmstfr:stfr_frozen_plasma_lens"
+    }
+  }
+}

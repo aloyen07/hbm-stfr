@@ -1,0 +1,4 @@
+{
+  "parent": "block/stairs",
+  "textures": { "bottom": "hbm:blocks/fusion_component.bscco_welded", "top": "hbm:blocks/fusion_component.bscco_welded", "side": "hbm:blocks/fusion_component.bscco_welded", "particle": "hbm:blocks/fusion_component.bscco_welded" }
+}

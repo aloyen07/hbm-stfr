@@ -1,0 +1,4719 @@
+{
+  "meme.cat_buffer_stall": {
+    "sounds": [
+      {
+        "name": "hbmstfr:meme/cat_buffer_stall",
+        "stream": false
+      }
+    ]
+  },
+  "capsule_filler.flow": {
+    "sounds": [
+      "hbmstfr:capsule_filler/gas_valve"
+    ]
+  },
+  "reactor.refueling.1": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "reactor.refueling.2": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "reactor.refueling.3": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "reactor.refueling.4": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "reactor.refueling.5": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "reactor.refueling.6": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "fuel_slot.slide_in": {
+    "sounds": [
+      {
+        "name": "hbmstfr:fuel_slot/slide_in",
+        "stream": false
+      }
+    ]
+  },
+  "fuel_slot.slide_out": {
+    "sounds": [
+      {
+        "name": "hbmstfr:fuel_slot/slide_out",
+        "stream": false
+      }
+    ]
+  },
+  "fuel_slot.clack_in": {
+    "sounds": [
+      {
+        "name": "hbmstfr:fuel_slot/clack_in",
+        "stream": false
+      }
+    ]
+  },
+  "fuel_slot.clack_out": {
+    "sounds": [
+      {
+        "name": "hbmstfr:fuel_slot/clack_out",
+        "stream": false
+      }
+    ]
+  },
+  "reactor.start_prime": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "reactor.start_confirm": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "reactor.start_complete": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "reactor.shutdown_prime": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "reactor.shutdown_complete": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "reactor.alarm_beep": {
+    "sounds": [
+      {
+        "name": "hbmstfr:alarms/beep",
+        "stream": false
+      }
+    ]
+  },
+  "reactor.alarm_beep2": {
+    "sounds": [
+      {
+        "name": "hbmstfr:alarms/beep2",
+        "stream": false
+      }
+    ]
+  },
+  "reactor.alarm2": {
+    "sounds": [
+      {
+        "name": "hbmstfr:alarms/alarm2",
+        "stream": false
+      }
+    ]
+  },
+  "reactor.alarm3": {
+    "sounds": [
+      {
+        "name": "hbmstfr:alarms/alarm3",
+        "stream": false
+      }
+    ]
+  },
+  "reactor.tension": {
+    "sounds": [
+      {
+        "name": "hbmstfr:effects/tension",
+        "stream": false
+      }
+    ]
+  },
+  "reactor.alarm": {
+    "sounds": [
+      {
+        "name": "hbmstfr:alarms/alarm",
+        "stream": false
+      }
+    ]
+  },
+  "reactor.note_bit": {
+    "sounds": [
+      {
+        "name": "hbmstfr:reactor/note_bit",
+        "stream": false
+      }
+    ]
+  },
+  "reactor.note_guitar": {
+    "sounds": [
+      {
+        "name": "hbmstfr:reactor/note_guitar",
+        "stream": false
+      }
+    ]
+  },
+  "reactor.breaker_switch": {
+    "sounds": [
+      {
+        "name": "hbmstfr:controls/breaker_switch",
+        "stream": false
+      }
+    ]
+  },
+  "reactor.breaker_arm": {
+    "sounds": [
+      {
+        "name": "hbmstfr:controls/breaker_arm",
+        "stream": false
+      }
+    ]
+  },
+  "reactor.start_abort": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "reactor.start_abort_auto": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "reactor.start_breakers": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "reactor.start_breakers_fail": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "reactor.start_systems": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "reactor.start_systems_error": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "reactor.start_shield": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "reactor.start_injecting": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "reactor.start_lasers": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "reactor.shutdown_stabilizing": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "reactor.shutdown_cooling": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "reactor.shutdown_shield": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "reactor.shutdown_breakers": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "reactor.shutdown_vacuuming": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "reactor.shutdown_abort": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "reactor.startup_core": {
+    "sounds": [
+      {
+        "name": "hbmstfr:reactor/corestartup",
+        "stream": false
+      }
+    ]
+  },
+  "reactor.heavy_startup": {
+    "sounds": [
+      {
+        "name": "hbmstfr:reactor/heavy_startup",
+        "stream": false
+      }
+    ]
+  },
+  "reactor.motor_rampup": {
+    "sounds": [
+      {
+        "name": "hbmstfr:reactor/motor_rampup",
+        "stream": false
+      }
+    ]
+  },
+  "reactor.heavy_shutdown": {
+    "sounds": [
+      {
+        "name": "hbmstfr:reactor/heavy_shutdown",
+        "stream": false
+      }
+    ]
+  },
+  "reactor.system_noise": {
+    "sounds": [
+      {
+        "name": "hbmstfr:reactor/system_noise",
+        "stream": false
+      }
+    ]
+  },
+  "reactor.humming": {
+    "sounds": [
+      {
+        "name": "hbmstfr:reactor/humming",
+        "stream": false
+      }
+    ]
+  },
+  "reactor.humming_high": {
+    "sounds": [
+      {
+        "name": "hbmstfr:reactor/humming_high",
+        "stream": false
+      }
+    ]
+  },
+  "reactor.shutdown_effect": {
+    "sounds": [
+      {
+        "name": "hbmstfr:reactor/shutdown",
+        "stream": false
+      }
+    ]
+  },
+  "reactor.vacuum": {
+    "sounds": [
+      {
+        "name": "hbmstfr:reactor/vacuum",
+        "stream": false
+      }
+    ]
+  },
+  "reactor.startup_music": {
+    "sounds": [
+      {
+        "name": "hbmstfr:music/alex_giudici_reconstructing_more_science_remix_v2_terf_cut",
+        "stream": true
+      }
+    ]
+  },
+  "reactor.beacon_activate": {
+    "sounds": [
+      {
+        "name": "hbmstfr:reactor/beacon_activate",
+        "stream": false
+      }
+    ]
+  },
+  "reactor.beacon_power_select": {
+    "sounds": [
+      {
+        "name": "hbmstfr:reactor/beacon_power1",
+        "stream": false
+      },
+      {
+        "name": "hbmstfr:reactor/beacon_power2",
+        "stream": false
+      },
+      {
+        "name": "hbmstfr:reactor/beacon_power3",
+        "stream": false
+      }
+    ]
+  },
+  "reactor.beacon_ambient": {
+    "sounds": [
+      {
+        "name": "hbmstfr:reactor/beacon_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "reactor.beacon_deactivate": {
+    "sounds": [
+      {
+        "name": "hbmstfr:reactor/beacon_deactivate",
+        "stream": false
+      }
+    ]
+  },
+  "failure.voicelines.stfr.startup_overload.start": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "failure.voicelines.stfr.startup_overload.restabilize": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "failure.voicelines.stfr.startup_overload.restab_start": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "failure.voicelines.stfr.startup_overload.options": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "failure.voicelines.stfr.startup_overload.output_stable": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "failure.voicelines.stfr.startup_overload.detonation_5.5m": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "failure.voicelines.stfr.startup_overload.detonation_5m": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "failure.voicelines.stfr.startup_overload.detonation_4.5m": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "failure.voicelines.stfr.startup_overload.detonation_4m": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "failure.voicelines.stfr.startup_overload.detonation_3m": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "failure.voicelines.stfr.startup_overload.detonation_2.5m": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "failure.voicelines.stfr.startup_overload.detonation_60s": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "failure.voicelines.stfr.startup_overload.detonation_30s": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "failure.voicelines.stfr.startup_overload.stab1_connected": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "failure.voicelines.stfr.startup_overload.stab1_disconnected": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "failure.voicelines.stfr.startup_overload.stab2_connected": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "failure.voicelines.stfr.startup_overload.stab2_disconnected": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "failure.voicelines.stfr.startup_overload.stab3_connected": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "failure.voicelines.stfr.startup_overload.stab3_disconnected": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "failure.voicelines.stfr.startup_overload.stab4_connected": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "failure.voicelines.stfr.startup_overload.stab4_disconnected": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "failure.voicelines.stfr.startup_overload.stab5_connected": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "failure.voicelines.stfr.startup_overload.stab5_disconnected": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "failure.voicelines.stfr.startup_overload.stab6_connected": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "failure.voicelines.stfr.startup_overload.stab6_disconnected": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "failure.alarms.civil_alert_siren": {
+    "sounds": [
+      "hbmstfr:alarms/civil_alert_siren"
+    ]
+  },
+  "failure.alarms.civil_alert_siren_2": {
+    "sounds": [
+      "hbmstfr:alarms/civil_alert_siren_2"
+    ]
+  },
+  "failure.alarms.civil_alert_siren_3": {
+    "sounds": [
+      "hbmstfr:alarms/civil_alert_siren_3"
+    ]
+  },
+  "failure.alarms.civil_alert_siren_4": {
+    "sounds": [
+      "hbmstfr:alarms/civil_alert_siren_4"
+    ]
+  },
+  "failure.alarms.airraidsiren": {
+    "sounds": [
+      "hbmstfr:alarms/airraidsiren"
+    ]
+  },
+  "failure.alarms.notification": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "failure.explosion.huge_explosion": {
+    "sounds": [
+      "hbmstfr:explosions/huge_explosion"
+    ]
+  },
+  "failure.explosion.shieldboom": {
+    "sounds": [
+      "hbmstfr:explosions/shieldboom"
+    ]
+  },
+  "failure.explosion.pressuregigaboom": {
+    "sounds": [
+      "hbmstfr:explosions/pressuregigaboom"
+    ]
+  },
+  "failure.charge_up.reactordetonationcharging": {
+    "sounds": [
+      "hbmstfr:charging/reactordetonationcharging"
+    ]
+  },
+  "failure.lightsswitch": {
+    "sounds": [
+      "hbmstfr:controls/lightsswitch"
+    ]
+  },
+  "failure.powerpurge": {
+    "sounds": [
+      "hbmstfr:effects/powerpurge"
+    ]
+  },
+  "failure.music.idunno_reactor_meltdown_sequence": {
+    "sounds": [
+      {
+        "name": "hbmstfr:music/unidentified_reactor_meltdown_sequence",
+        "stream": true
+      }
+    ]
+  },
+  "failure.music.hacknet_ost_paki_trak": {
+    "sounds": [
+      {
+        "name": "hbmstfr:music/remi_gallego_panic_track_jona23_edit",
+        "stream": true
+      }
+    ]
+  },
+  "failure.music.explosionmusic": {
+    "sounds": [
+      {
+        "name": "hbmstfr:music/cold_cinema_shooting",
+        "stream": true
+      }
+    ]
+  },
+  "failure.music.hacknet_music_end": {
+    "sounds": [
+      {
+        "name": "hbmstfr:music/unidentified_terf_music_end_cue",
+        "stream": true
+      }
+    ]
+  },
+  "failure.block.sculk.charge": {
+    "sounds": [
+      "hbmstfr:blocks/sculk/charge1",
+      "hbmstfr:blocks/sculk/charge2",
+      "hbmstfr:blocks/sculk/charge3",
+      "hbmstfr:blocks/sculk/charge4",
+      "hbmstfr:blocks/sculk/charge5"
+    ]
+  },
+  "failure.block.respawn_anchor.deplete": {
+    "sounds": [
+      "hbmstfr:blocks/respawn_anchor/deplete1",
+      "hbmstfr:blocks/respawn_anchor/deplete2"
+    ]
+  },
+  "failure.alarms.systemoverheat": {
+    "sounds": [
+      "hbmstfr:alarms/systemoverheat"
+    ]
+  },
+  "alarms.airraidsiren": {
+    "sounds": [
+      {
+        "name": "hbmstfr:alarms/airraidsiren"
+      }
+    ]
+  },
+  "alarms.amogus": {
+    "sounds": [
+      {
+        "name": "hbmstfr:alarms/amogus"
+      }
+    ]
+  },
+  "alarms.beep2": {
+    "sounds": [
+      {
+        "name": "hbmstfr:alarms/beep2"
+      }
+    ]
+  },
+  "effects.braam": {
+    "sounds": [
+      {
+        "name": "hbmstfr:effects/tension"
+      }
+    ]
+  },
+  "effects.charge_up.charge": {
+    "sounds": [
+      {
+        "name": "hbmstfr:charging/charge"
+      }
+    ]
+  },
+  "effects.charge_up.heavy_shutdown": {
+    "sounds": [
+      {
+        "name": "hbmstfr:reactor/heavy_shutdown"
+      }
+    ]
+  },
+  "effects.charge_up.heavy_startup": {
+    "sounds": [
+      {
+        "name": "hbmstfr:reactor/heavy_startup"
+      }
+    ]
+  },
+  "effects.charge_up.mega_chargeup": {
+    "sounds": [
+      {
+        "name": "hbmstfr:charging/mega_chargeup"
+      }
+    ]
+  },
+  "effects.charge_up.motor_rampup": {
+    "sounds": [
+      {
+        "name": "hbmstfr:reactor/motor_rampup"
+      }
+    ]
+  },
+  "effects.dem.metal_2": {
+    "sounds": [
+      {
+        "name": "hbmstfr:effects/metal_2"
+      }
+    ]
+  },
+  "effects.dem.purge": {
+    "sounds": [
+      {
+        "name": "hbmstfr:effects/purge"
+      }
+    ]
+  },
+  "effects.explosion.bang": {
+    "sounds": [
+      {
+        "name": "hbmstfr:explosions/bang"
+      }
+    ]
+  },
+  "effects.explosion.bang2": {
+    "sounds": [
+      {
+        "name": "hbmstfr:explosions/bang2"
+      }
+    ]
+  },
+  "effects.explosion.mega_explosion": {
+    "sounds": [
+      {
+        "name": "hbmstfr:explosions/mega_explosion"
+      }
+    ]
+  },
+  "effects.explosion.pressuregigaboom": {
+    "sounds": [
+      {
+        "name": "hbmstfr:explosions/pressuregigaboom"
+      }
+    ]
+  },
+  "effects.explosion.rocketfly": {
+    "sounds": [
+      {
+        "name": "hbmstfr:explosions/rocketfly"
+      }
+    ]
+  },
+  "effects.explosion.shieldboom": {
+    "sounds": [
+      {
+        "name": "hbmstfr:explosions/shieldboom"
+      }
+    ]
+  },
+  "music.carpenter_brut_run_sally_run": {
+    "sounds": [
+      {
+        "stream": true,
+        "name": "hbmstfr:music/carpenter_brut_run_sally_run"
+      }
+    ]
+  },
+  "music.hacknet_labyrinths_ogre_snidelywhiplash": {
+    "sounds": [
+      {
+        "stream": true,
+        "name": "hbmstfr:music/ogre_sound_snidelywhiplash"
+      }
+    ]
+  },
+  "music.hacknet_music_end": {
+    "sounds": [
+      {
+        "stream": true,
+        "name": "hbmstfr:music/unidentified_terf_music_end_cue"
+      }
+    ]
+  },
+  "music.hacknet_ost_carpenter_brut": {
+    "sounds": [
+      {
+        "stream": true,
+        "name": "hbmstfr:music/carpenter_brut_roller_mobster_terf_edit"
+      }
+    ]
+  },
+  "music.hacknet_ost_malware_injection_remix": {
+    "sounds": [
+      {
+        "stream": true,
+        "name": "hbmstfr:music/remi_gallego_malware_injection_terf_remix"
+      }
+    ]
+  },
+  "music.hacknet_ost_paki_trak": {
+    "sounds": [
+      {
+        "stream": true,
+        "name": "hbmstfr:music/remi_gallego_panic_track_jona23_edit"
+      }
+    ]
+  },
+  "music.hacknet_ost_panic_track": {
+    "sounds": [
+      {
+        "stream": true,
+        "name": "hbmstfr:music/remi_gallego_panic_track_terf_version"
+      }
+    ]
+  },
+  "music.joel_nielsen_blast_pit_3": {
+    "sounds": [
+      {
+        "stream": true,
+        "name": "hbmstfr:music/joel_nielsen_blast_pit_3"
+      }
+    ]
+  },
+  "music.remi_galleno_panic_track": {
+    "sounds": [
+      {
+        "stream": true,
+        "name": "hbmstfr:music/remi_gallego_panic_track_original"
+      }
+    ]
+  },
+  "music.restabilization_music": {
+    "sounds": [
+      {
+        "stream": true,
+        "name": "hbmstfr:music/infraction_music_battle_terf_version"
+      }
+    ]
+  },
+  "music.the_final_flash_of_existance_remix": {
+    "sounds": [
+      {
+        "stream": true,
+        "name": "hbmstfr:music/fragik_the_final_flash_of_existence_unidentified_remix"
+      }
+    ]
+  },
+  "effects.opencore.lock_material": {
+    "sounds": [
+      {
+        "name": "hbmstfr:controls/lock_material"
+      }
+    ]
+  },
+  "effects.powerpurge": {
+    "sounds": [
+      {
+        "name": "hbmstfr:effects/powerpurge"
+      }
+    ]
+  },
+  "effects.rumbling": {
+    "sounds": [
+      {
+        "name": "hbmstfr:effects/rumbling"
+      }
+    ]
+  },
+  "scene_voice.stfr.manual_restab.attempt_aux_shield": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.manual_restab.aux_shield_formed": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.manual_restab.breakers": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.manual_restab.confirm": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.manual_restab.disconnect_panel": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.manual_restab.fail": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.manual_restab.fail_in_10s": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.manual_restab.fail_in_2m": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.manual_restab.fail_in_30s": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.manual_restab.fail_in_60s": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.manual_restab.reconnect_panel": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.manual_restab.replace_lenses": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.manual_restab.restabilize": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.manual_restab.sstb": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.overload.field": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.overload.int_shield_crit": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.overload.overdrive": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.overload.plasma": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.overload.restab_options": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.overload.start": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.reaction_loss.collapse": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.reaction_loss.instability": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.reaction_loss.restab_complete": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.reaction_loss.restab_firing": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.reaction_loss.restab_options": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.reaction_loss.restab_start": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.reaction_loss.stabilizer_fail": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.shut_fail.diameter": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.shut_fail.foreign": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.shut_fail.fusion": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.shut_fail.ineffective": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.shut_fail.instability": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.shut_fail.monitoring_fail": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.shut_fail.permeability": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.shut_fail.pressure": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.shut_fail.projection": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.shut_fail.reactivity": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.shut_fail.restab_options": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.shut_fail.setpoint": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.shut_fail.start": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.shut_fail.temp_fail": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.underload.backup_systems_online": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.underload.connecting_backup_systems": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.underload.evacuate": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.underload.field_increasing": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.underload.no_match": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.underload.scanning": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.underload.stabilization_failure": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.underload.structural_failure": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.underload.system_damage": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.bct.case_restore": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.bct.stab1_restore": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.bct.stab2_restore": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.bct.stab3_restore": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.bct.stab4_restore": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.bct.stab5_restore": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "scene_voice.stfr.bct.stab6_restore": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "alarms.beep3": {
+    "sounds": [
+      {
+        "name": "hbmstfr:alarms/beep3"
+      }
+    ]
+  },
+  "effects.lightsswitch": {
+    "sounds": [
+      {
+        "name": "hbmstfr:controls/lightsswitch"
+      }
+    ]
+  },
+  "digamma.scream.normal": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "hbmstfr:digamma/scream/normal/scream_1",
+        "stream": true
+      },
+      {
+        "name": "hbmstfr:digamma/scream/normal/scream_2",
+        "stream": true
+      },
+      {
+        "name": "hbmstfr:digamma/scream/normal/scream_3",
+        "stream": true
+      }
+    ]
+  },
+  "digamma.scream.secret": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "hbmstfr:digamma/scream/secret/scream_1",
+        "stream": true
+      },
+      {
+        "name": "hbmstfr:digamma/scream/secret/scream_2",
+        "stream": true
+      }
+    ]
+  },
+  "alarms.beep": {
+    "sounds": [
+      {
+        "name": "hbmstfr:alarms/beep"
+      }
+    ]
+  },
+  "reactor.start_ignition": {
+    "sounds": [
+      "hbmstfr:alarms/notification"
+    ]
+  },
+  "effects.magnetic.snap": {
+    "sounds": [
+      {
+        "name": "hbmstfr:magnetic/snap",
+        "stream": false
+      }
+    ]
+  },
+  "effects.magnetic.tear": {
+    "sounds": [
+      {
+        "name": "hbmstfr:magnetic/tear",
+        "stream": false
+      }
+    ]
+  },
+  "voice.ru.autopilot.crash": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/autopilot.crash",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.autopilot.crash": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/autopilot.crash",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.autopilot.destabilizer": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/autopilot.destabilizer",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.autopilot.destabilizer": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/autopilot.destabilizer",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.autopilot.disabled": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/autopilot.disabled",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.autopilot.disabled": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/autopilot.disabled",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.autopilot.enabled.1": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/autopilot.enabled.1",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.autopilot.enabled.1": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/autopilot.enabled.1",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.autopilot.enabled.2": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/autopilot.enabled.2",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.autopilot.enabled.2": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/autopilot.enabled.2",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.autopilot.enabled.3": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/autopilot.enabled.3",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.autopilot.enabled.3": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/autopilot.enabled.3",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.autopilot.stopping": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/autopilot.stopping",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.autopilot.stopping": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/autopilot.stopping",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.failure.case_breach": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/failure.case_breach",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.failure.case_breach": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/failure.case_breach",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.failure.countdown.2.5m": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/failure.countdown.2.5m",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.failure.countdown.2.5m": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/failure.countdown.2.5m",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.failure.countdown.30s": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/failure.countdown.30s",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.failure.countdown.30s": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/failure.countdown.30s",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.failure.countdown.3m": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/failure.countdown.3m",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.failure.countdown.3m": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/failure.countdown.3m",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.failure.countdown.4.5m": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/failure.countdown.4.5m",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.failure.countdown.4.5m": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/failure.countdown.4.5m",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.failure.countdown.4m": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/failure.countdown.4m",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.failure.countdown.4m": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/failure.countdown.4m",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.failure.countdown.5.5m": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/failure.countdown.5.5m",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.failure.countdown.5.5m": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/failure.countdown.5.5m",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.failure.countdown.5m": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/failure.countdown.5m",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.failure.countdown.5m": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/failure.countdown.5m",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.failure.countdown.60s": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/failure.countdown.60s",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.failure.countdown.60s": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/failure.countdown.60s",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.failure.failure": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/failure.failure",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.failure.failure": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/failure.failure",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.failure.meltdown": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/failure.meltdown",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.failure.meltdown": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/failure.meltdown",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.failure.recovering": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/failure.recovering",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.failure.recovering": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/failure.recovering",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.failure.recovery_available": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/failure.recovery_available",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.failure.recovery_available": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/failure.recovery_available",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.failure.recovery_links": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/failure.recovery_links",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.failure.recovery_links": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/failure.recovery_links",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.failure.restabilized": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/failure.restabilized",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.failure.restabilized": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/failure.restabilized",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.failure.shelter": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/failure.shelter",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.failure.shelter": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/failure.shelter",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.failure.shield_failure": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/failure.shield_failure",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.failure.shield_failure": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/failure.shield_failure",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.digamma.abort": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.digamma.abort",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.digamma.abort": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.digamma.abort",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.digamma.final": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.digamma.final",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.digamma.final": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.digamma.final",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.digamma.online": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.digamma.online",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.digamma.online": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.digamma.online",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.digamma.ready": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.digamma.ready",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.digamma.ready": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.digamma.ready",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.digamma.resonance": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.digamma.resonance",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.digamma.resonance": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.digamma.resonance",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.digamma.search": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.digamma.search",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.digamma.search": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.digamma.search",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.fault.breakers": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.fault.breakers",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.fault.breakers": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.fault.breakers",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.fault.fuel": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.fault.fuel",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.fault.fuel": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.fault.fuel",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.fault.hatches": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.fault.hatches",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.fault.hatches": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.fault.hatches",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.fault.seal": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.fault.seal",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.fault.seal": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.fault.seal",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.fault.turbines": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.fault.turbines",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.fault.turbines": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.fault.turbines",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.maintenance.broken.0": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.maintenance.broken.0",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.maintenance.broken.0": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.maintenance.broken.0",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.maintenance.broken.1": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.maintenance.broken.1",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.maintenance.broken.1": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.maintenance.broken.1",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.maintenance.broken.2": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.maintenance.broken.2",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.maintenance.broken.2": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.maintenance.broken.2",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.maintenance.broken.3": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.maintenance.broken.3",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.maintenance.broken.3": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.maintenance.broken.3",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.maintenance.broken.4": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.maintenance.broken.4",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.maintenance.broken.4": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.maintenance.broken.4",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.maintenance.broken.5": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.maintenance.broken.5",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.maintenance.broken.5": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.maintenance.broken.5",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.maintenance.broken.6": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.maintenance.broken.6",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.maintenance.broken.6": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.maintenance.broken.6",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.maintenance.fixed.0": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.maintenance.fixed.0",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.maintenance.fixed.0": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.maintenance.fixed.0",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.maintenance.fixed.1": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.maintenance.fixed.1",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.maintenance.fixed.1": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.maintenance.fixed.1",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.maintenance.fixed.2": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.maintenance.fixed.2",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.maintenance.fixed.2": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.maintenance.fixed.2",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.maintenance.fixed.3": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.maintenance.fixed.3",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.maintenance.fixed.3": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.maintenance.fixed.3",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.maintenance.fixed.4": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.maintenance.fixed.4",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.maintenance.fixed.4": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.maintenance.fixed.4",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.maintenance.fixed.5": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.maintenance.fixed.5",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.maintenance.fixed.5": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.maintenance.fixed.5",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.maintenance.fixed.6": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.maintenance.fixed.6",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.maintenance.fixed.6": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.maintenance.fixed.6",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.maintenance.no_lubricant": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.maintenance.no_lubricant",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.maintenance.no_lubricant": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.maintenance.no_lubricant",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.maintenance.required.0": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.maintenance.required.0",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.maintenance.required.0": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.maintenance.required.0",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.maintenance.required.1": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.maintenance.required.1",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.maintenance.required.1": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.maintenance.required.1",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.maintenance.required.2": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.maintenance.required.2",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.maintenance.required.2": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.maintenance.required.2",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.maintenance.required.3": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.maintenance.required.3",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.maintenance.required.3": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.maintenance.required.3",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.maintenance.required.4": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.maintenance.required.4",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.maintenance.required.4": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.maintenance.required.4",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.maintenance.required.5": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.maintenance.required.5",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.maintenance.required.5": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.maintenance.required.5",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.maintenance.required.6": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.maintenance.required.6",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.maintenance.required.6": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.maintenance.required.6",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.operation.case_blowout": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.operation.case_blowout",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.operation.case_blowout": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.operation.case_blowout",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.operation.case_explosion": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.operation.case_explosion",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.operation.case_explosion": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.operation.case_explosion",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.operation.coolant_leak": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.operation.coolant_leak",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.operation.coolant_leak": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.operation.coolant_leak",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.operation.grounding_fault": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.operation.grounding_fault",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.operation.grounding_fault": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.operation.grounding_fault",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.operation.radiation_shield_fault": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.operation.radiation_shield_fault",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.operation.radiation_shield_fault": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.operation.radiation_shield_fault",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.operation.steam_overpressure": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.operation.steam_overpressure",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.operation.steam_overpressure": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.operation.steam_overpressure",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.refueled.1": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.refueled.1",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.refueled.1": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.refueled.1",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.refueled.2": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.refueled.2",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.refueled.2": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.refueled.2",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.refueled.3": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.refueled.3",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.refueled.3": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.refueled.3",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.refueled.4": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.refueled.4",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.refueled.4": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.refueled.4",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.refueled.5": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.refueled.5",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.refueled.5": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.refueled.5",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.refueled.6": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.refueled.6",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.refueled.6": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.refueled.6",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.refueling.1": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.refueling.1",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.refueling.1": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.refueling.1",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.refueling.2": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.refueling.2",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.refueling.2": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.refueling.2",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.refueling.3": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.refueling.3",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.refueling.3": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.refueling.3",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.refueling.4": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.refueling.4",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.refueling.4": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.refueling.4",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.refueling.5": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.refueling.5",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.refueling.5": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.refueling.5",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.refueling.6": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.refueling.6",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.refueling.6": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.refueling.6",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.restored.0": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.restored.0",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.restored.0": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.restored.0",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.restored.1": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.restored.1",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.restored.1": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.restored.1",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.restored.2": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.restored.2",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.restored.2": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.restored.2",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.restored.3": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.restored.3",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.restored.3": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.restored.3",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.restored.4": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.restored.4",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.restored.4": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.restored.4",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.restored.5": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.restored.5",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.restored.5": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.restored.5",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.restored.6": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.restored.6",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.restored.6": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.restored.6",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.sealed.1": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.sealed.1",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.sealed.1": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.sealed.1",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.sealed.2": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.sealed.2",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.sealed.2": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.sealed.2",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.sealed.3": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.sealed.3",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.sealed.3": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.sealed.3",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.sealed.4": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.sealed.4",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.sealed.4": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.sealed.4",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.sealed.5": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.sealed.5",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.sealed.5": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.sealed.5",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.sealed.6": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.sealed.6",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.sealed.6": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.sealed.6",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.shutdown.abort": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.shutdown.abort",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.shutdown.abort": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.shutdown.abort",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.shutdown.breakers": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.shutdown.breakers",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.shutdown.breakers": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.shutdown.breakers",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.shutdown.complete": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.shutdown.complete",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.shutdown.complete": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.shutdown.complete",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.shutdown.cooling": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.shutdown.cooling",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.shutdown.cooling": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.shutdown.cooling",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.shutdown.dirty": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.shutdown.dirty",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.shutdown.dirty": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.shutdown.dirty",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.shutdown.prime": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.shutdown.prime",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.shutdown.prime": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.shutdown.prime",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.shutdown.shield": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.shutdown.shield",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.shutdown.shield": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.shutdown.shield",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.shutdown.shield_unsafe": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.shutdown.shield_unsafe",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.shutdown.shield_unsafe": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.shutdown.shield_unsafe",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.shutdown.stabilizing": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.shutdown.stabilizing",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.shutdown.stabilizing": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.shutdown.stabilizing",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.shutdown.vacuuming": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.shutdown.vacuuming",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.shutdown.vacuuming": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.shutdown.vacuuming",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.shutdown.vacuuming_fail": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.shutdown.vacuuming_fail",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.shutdown.vacuuming_fail": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.shutdown.vacuuming_fail",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.start.abort": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.start.abort",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.start.abort": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.start.abort",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.start.abort_auto": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.start.abort_auto",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.start.abort_auto": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.start.abort_auto",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.start.abort_breakers": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.start.abort_breakers",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.start.abort_breakers": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.start.abort_breakers",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.start.abort_manual": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.start.abort_manual",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.start.abort_manual": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.start.abort_manual",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.start.abort_power": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.start.abort_power",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.start.abort_power": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.start.abort_power",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.start.breakers": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.start.breakers",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.start.breakers": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.start.breakers",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.start.breakers_fail": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.start.breakers_fail",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.start.breakers_fail": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.start.breakers_fail",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.start.complete": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.start.complete",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.start.complete": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.start.complete",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.start.confirm": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.start.confirm",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.start.confirm": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.start.confirm",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.start.ignition": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.start.ignition",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.start.ignition": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.start.ignition",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.start.injecting": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.start.injecting",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.start.injecting": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.start.injecting",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.start.lasers": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.start.lasers",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.start.lasers": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.start.lasers",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.start.prime": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.start.prime",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.start.prime": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.start.prime",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.start.shield": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.start.shield",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.start.shield": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.start.shield",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.start.stabilization_loss": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.start.stabilization_loss",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.start.stabilization_loss": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.start.stabilization_loss",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.start.systems": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.start.systems",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.start.systems": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.start.systems",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.start.systems_error": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.start.systems_error",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.start.systems_error": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.start.systems_error",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.warn.case_breach": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.warn.case_breach",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.warn.case_breach": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.warn.case_breach",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.warn.case_pressure_critical": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.warn.case_pressure_critical",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.warn.case_pressure_critical": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.warn.case_pressure_critical",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.warn.case_pressure_high": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.warn.case_pressure_high",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.warn.case_pressure_high": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.warn.case_pressure_high",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.warn.case_temp_critical": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.warn.case_temp_critical",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.warn.case_temp_critical": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.warn.case_temp_critical",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.warn.case_temp_high": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.warn.case_temp_high",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.warn.case_temp_high": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.warn.case_temp_high",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.warn.coolant_critical": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.warn.coolant_critical",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.warn.coolant_critical": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.warn.coolant_critical",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.warn.coolant_low": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.warn.coolant_low",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.warn.coolant_low": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.warn.coolant_low",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.warn.fuel_critical": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.warn.fuel_critical",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.warn.fuel_critical": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.warn.fuel_critical",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.warn.fuel_low": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.warn.fuel_low",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.warn.fuel_low": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.warn.fuel_low",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.warn.polonium_core_high": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.warn.polonium_core_high",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.warn.polonium_core_high": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.warn.polonium_core_high",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.warn.pressure_critical": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.warn.pressure_critical",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.warn.pressure_critical": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.warn.pressure_critical",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.warn.pressure_high": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.warn.pressure_high",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.warn.pressure_high": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.warn.pressure_high",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.warn.pressure_low": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.warn.pressure_low",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.warn.pressure_low": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.warn.pressure_low",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.warn.shield_25": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.warn.shield_25",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.warn.shield_25": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.warn.shield_25",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.warn.shield_50": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.warn.shield_50",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.warn.shield_50": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.warn.shield_50",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.warn.shield_75": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.warn.shield_75",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.warn.shield_75": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.warn.shield_75",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.warn.shield_critical": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.warn.shield_critical",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.warn.shield_critical": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.warn.shield_critical",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.warn.shield_stress_critical": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.warn.shield_stress_critical",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.warn.shield_stress_critical": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.warn.shield_stress_critical",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.warn.shield_stress_high": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.warn.shield_stress_high",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.warn.shield_stress_high": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.warn.shield_stress_high",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.warn.spin_high": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.warn.spin_high",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.warn.spin_high": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.warn.spin_high",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.warn.spin_low": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.warn.spin_low",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.warn.spin_low": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.warn.spin_low",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.warn.steam_blocked": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.warn.steam_blocked",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.warn.steam_blocked": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.warn.steam_blocked",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.warn.temp_high": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.warn.temp_high",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.warn.temp_high": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.warn.temp_high",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.warn.temp_low": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.warn.temp_low",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.warn.temp_low": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.warn.temp_low",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.warn.turbines_damaged": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.warn.turbines_damaged",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.warn.turbines_damaged": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.warn.turbines_damaged",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.warn.turbines_lost": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.warn.turbines_lost",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.warn.turbines_lost": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.warn.turbines_lost",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.reactor.warn.yaronite_core_high": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/reactor.warn.yaronite_core_high",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.reactor.warn.yaronite_core_high": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/reactor.warn.yaronite_core_high",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.manual_restabilization.3610": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.manual_restabilization.3610",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.manual_restabilization.3610": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.manual_restabilization.3610",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.monitoring_error": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.monitoring_error",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.monitoring_error": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.monitoring_error",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.overload.321": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.overload.321",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.overload.321": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.overload.321",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.reaction_loss.451": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.reaction_loss.451",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.reaction_loss.451": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.reaction_loss.451",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.reaction_loss.452": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.reaction_loss.452",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.reaction_loss.452": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.reaction_loss.452",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.reaction_loss.453": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.reaction_loss.453",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.reaction_loss.453": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.reaction_loss.453",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.reaction_loss.454": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.reaction_loss.454",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.reaction_loss.454": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.reaction_loss.454",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.reaction_loss.455": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.reaction_loss.455",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.reaction_loss.455": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.reaction_loss.455",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.self_aborted": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.self_aborted",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.self_aborted": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.self_aborted",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.self_destruct.100": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.self_destruct.100",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.self_destruct.100": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.self_destruct.100",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.self_destruct.2405": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.self_destruct.2405",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.self_destruct.2405": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.self_destruct.2405",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.self_destruct.2800": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.self_destruct.2800",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.self_destruct.2800": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.self_destruct.2800",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.self_destruct.3360": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.self_destruct.3360",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.self_destruct.3360": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.self_destruct.3360",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.self_destruct.3700": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.self_destruct.3700",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.self_destruct.3700": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.self_destruct.3700",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.shield_preserved": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.shield_preserved",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.shield_preserved": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.shield_preserved",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.shutdown_failure.752": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.shutdown_failure.752",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.shutdown_failure.752": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.shutdown_failure.752",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.shutdown_failure.753": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.shutdown_failure.753",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.shutdown_failure.753": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.shutdown_failure.753",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stabilization_lost": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stabilization_lost",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stabilization_lost": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stabilization_lost",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stabilizer_loss.300": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stabilizer_loss.300",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stabilizer_loss.300": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stabilizer_loss.300",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stabilizer_loss.301": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stabilizer_loss.301",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stabilizer_loss.301": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stabilizer_loss.301",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.manual_restab.attempt_aux_shield": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.manual_restab.attempt_aux_shield",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.manual_restab.attempt_aux_shield": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.manual_restab.attempt_aux_shield",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.manual_restab.aux_shield_formed": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.manual_restab.aux_shield_formed",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.manual_restab.aux_shield_formed": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.manual_restab.aux_shield_formed",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.manual_restab.breakers": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.manual_restab.breakers",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.manual_restab.breakers": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.manual_restab.breakers",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.manual_restab.confirm": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.manual_restab.confirm",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.manual_restab.confirm": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.manual_restab.confirm",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.manual_restab.disconnect_panel": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.manual_restab.disconnect_panel",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.manual_restab.disconnect_panel": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.manual_restab.disconnect_panel",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.manual_restab.fail": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.manual_restab.fail",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.manual_restab.fail": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.manual_restab.fail",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.manual_restab.fail_in_10s": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.manual_restab.fail_in_10s",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.manual_restab.fail_in_10s": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.manual_restab.fail_in_10s",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.manual_restab.fail_in_2m": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.manual_restab.fail_in_2m",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.manual_restab.fail_in_2m": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.manual_restab.fail_in_2m",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.manual_restab.fail_in_30s": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.manual_restab.fail_in_30s",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.manual_restab.fail_in_30s": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.manual_restab.fail_in_30s",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.manual_restab.fail_in_60s": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.manual_restab.fail_in_60s",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.manual_restab.fail_in_60s": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.manual_restab.fail_in_60s",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.manual_restab.reconnect_panel": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.manual_restab.reconnect_panel",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.manual_restab.reconnect_panel": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.manual_restab.reconnect_panel",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.manual_restab.replace_lenses": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.manual_restab.replace_lenses",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.manual_restab.replace_lenses": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.manual_restab.replace_lenses",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.manual_restab.restabilize": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.manual_restab.restabilize",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.manual_restab.restabilize": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.manual_restab.restabilize",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.manual_restab.sstb": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.manual_restab.sstb",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.manual_restab.sstb": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.manual_restab.sstb",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.overload.field": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.overload.field",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.overload.field": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.overload.field",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.overload.int_shield_crit": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.overload.int_shield_crit",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.overload.int_shield_crit": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.overload.int_shield_crit",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.overload.overdrive": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.overload.overdrive",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.overload.overdrive": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.overload.overdrive",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.overload.plasma": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.overload.plasma",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.overload.plasma": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.overload.plasma",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.overload.restab_options": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.overload.restab_options",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.overload.restab_options": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.overload.restab_options",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.overload.start": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.overload.start",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.overload.start": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.overload.start",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.reaction_loss.collapse": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.reaction_loss.collapse",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.reaction_loss.collapse": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.reaction_loss.collapse",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.reaction_loss.instability": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.reaction_loss.instability",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.reaction_loss.instability": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.reaction_loss.instability",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.reaction_loss.restab_complete": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.reaction_loss.restab_complete",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.reaction_loss.restab_complete": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.reaction_loss.restab_complete",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.reaction_loss.restab_firing": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.reaction_loss.restab_firing",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.reaction_loss.restab_firing": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.reaction_loss.restab_firing",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.reaction_loss.restab_options": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.reaction_loss.restab_options",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.reaction_loss.restab_options": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.reaction_loss.restab_options",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.reaction_loss.restab_start": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.reaction_loss.restab_start",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.reaction_loss.restab_start": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.reaction_loss.restab_start",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.reaction_loss.stabilizer_fail": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.reaction_loss.stabilizer_fail",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.reaction_loss.stabilizer_fail": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.reaction_loss.stabilizer_fail",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.shut_fail.diameter": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.shut_fail.diameter",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.shut_fail.diameter": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.shut_fail.diameter",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.shut_fail.foreign": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.shut_fail.foreign",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.shut_fail.foreign": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.shut_fail.foreign",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.shut_fail.fusion": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.shut_fail.fusion",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.shut_fail.fusion": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.shut_fail.fusion",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.shut_fail.ineffective": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.shut_fail.ineffective",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.shut_fail.ineffective": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.shut_fail.ineffective",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.shut_fail.instability": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.shut_fail.instability",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.shut_fail.instability": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.shut_fail.instability",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.shut_fail.monitoring_fail": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.shut_fail.monitoring_fail",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.shut_fail.monitoring_fail": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.shut_fail.monitoring_fail",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.shut_fail.permeability": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.shut_fail.permeability",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.shut_fail.permeability": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.shut_fail.permeability",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.shut_fail.pressure": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.shut_fail.pressure",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.shut_fail.pressure": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.shut_fail.pressure",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.shut_fail.projection": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.shut_fail.projection",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.shut_fail.projection": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.shut_fail.projection",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.shut_fail.reactivity": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.shut_fail.reactivity",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.shut_fail.reactivity": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.shut_fail.reactivity",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.shut_fail.restab_end": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.shut_fail.restab_end",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.shut_fail.restab_end": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.shut_fail.restab_end",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.shut_fail.restab_inject": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.shut_fail.restab_inject",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.shut_fail.restab_inject": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.shut_fail.restab_inject",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.shut_fail.restab_options": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.shut_fail.restab_options",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.shut_fail.restab_options": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.shut_fail.restab_options",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.shut_fail.restab_overdrive": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.shut_fail.restab_overdrive",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.shut_fail.restab_overdrive": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.shut_fail.restab_overdrive",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.shut_fail.restab_start": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.shut_fail.restab_start",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.shut_fail.restab_start": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.shut_fail.restab_start",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.shut_fail.setpoint": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.shut_fail.setpoint",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.shut_fail.setpoint": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.shut_fail.setpoint",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.shut_fail.start": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.shut_fail.start",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.shut_fail.start": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.shut_fail.start",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.shut_fail.temp_fail": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.shut_fail.temp_fail",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.shut_fail.temp_fail": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.shut_fail.temp_fail",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.stab_loss.fail_in_1m": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.stab_loss.fail_in_1m",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.stab_loss.fail_in_1m": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.stab_loss.fail_in_1m",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.stab_loss.fail_in_2m": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.stab_loss.fail_in_2m",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.stab_loss.fail_in_2m": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.stab_loss.fail_in_2m",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.stab_loss.fail_in_30s": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.stab_loss.fail_in_30s",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.stab_loss.fail_in_30s": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.stab_loss.fail_in_30s",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.stab_loss.restab_options": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.stab_loss.restab_options",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.stab_loss.restab_options": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.stab_loss.restab_options",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.underload.backup_systems_online": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.underload.backup_systems_online",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.underload.backup_systems_online": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.underload.backup_systems_online",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.underload.connecting_backup_systems": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.underload.connecting_backup_systems",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.underload.connecting_backup_systems": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.underload.connecting_backup_systems",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.underload.evacuate": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.underload.evacuate",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.underload.evacuate": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.underload.evacuate",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.underload.field_increasing": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.underload.field_increasing",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.underload.field_increasing": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.underload.field_increasing",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.underload.no_match": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.underload.no_match",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.underload.no_match": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.underload.no_match",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.underload.scanning": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.underload.scanning",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.underload.scanning": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.underload.scanning",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.underload.stabilization_failure": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.underload.stabilization_failure",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.underload.stabilization_failure": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.underload.stabilization_failure",
+        "stream": true
+      }
+    ]
+  },
+  "voice.ru.scene.stfr.underload.system_damage": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/ru/scene.stfr.underload.system_damage",
+        "stream": true
+      }
+    ]
+  },
+  "voice.en.scene.stfr.underload.system_damage": {
+    "sounds": [
+      {
+        "name": "hbmstfr:voice/en/scene.stfr.underload.system_damage",
+        "stream": true
+      }
+    ]
+  }
+}

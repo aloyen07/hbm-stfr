@@ -1,0 +1,210 @@
+import com.gtnewhorizons.retrofuturagradle.mcp.ReobfuscatedJar
+import com.gtnewhorizons.retrofuturagradle.minecraft.RunMinecraftTask
+
+plugins {
+    id 'java-library'
+    id 'com.gtnewhorizons.retrofuturagradle' version '1.4.9'
+    id 'xyz.wagyourtail.jvmdowngrader' version '1.3.6'
+}
+
+group = 'fun.aloyenz.stfr'
+version = modVersion
+base { archivesName = 'hbmstfr-1.12.2' }
+
+java {
+    toolchain { languageVersion = JavaLanguageVersion.of(21) }
+    withSourcesJar()
+}
+
+minecraft {
+    mcVersion = minecraftVersion
+    username = 'Aloyenz'
+    useDependencyAccessTransformers = true
+    injectedTags.put('MODID', 'hbmstfr')
+    injectedTags.put('VERSION', project.version.toString())
+    extraRunJvmArguments.add('-Xmx4G')
+    extraRunJvmArguments.add('-Dfml.coreMods.load=fun.aloyenz.stfr.core.StfrCorePlugin')
+    // Netty's native epoll transport crashes in the Linux loader with some Java 8 builds.
+    // Use the pure-Java NIO transport for development client/server runs instead.
+    extraRunJvmArguments.add('-Dio.netty.transport.noNative=true')
+}
+
+tasks.named('injectTags') { outputClassName = 'fun.aloyenz.stfr.Tags' }
+
+// RFG compiles Minecraft and its launcher with Java 8; only mod code uses Java 21.
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    if (!(name in ['compileMcLauncherJava', 'compilePatchedMcJava'])) {
+        javaCompiler = javaToolchains.compilerFor {
+            languageVersion = JavaLanguageVersion.of(21)
+        }
+        sourceCompatibility = '21'
+        targetCompatibility = '21'
+        options.release = 21
+    }
+}
+
+apply from: 'repositories.gradle'
+apply from: 'dependencies.gradle'
+
+def distributionNotices = fileTree(projectDir) {
+    include 'LICENSE', 'NOTICE', 'CREDITS', 'THIRD_PARTY_NOTICES', 'LICENSES/**'
+}
+
+processResources {
+    inputs.property('version', project.version)
+    inputs.property('mcversion', minecraftVersion)
+    from(distributionNotices)
+    filesMatching('mcmod.info') {
+        expand(version: project.version, mcversion: minecraftVersion)
+    }
+
+}
+
+tasks.named('sourcesJar', Jar) {
+    from(distributionNotices)
+}
+
+// Compile Java 21 -> downgrade to Java 8 -> embed required API shims -> reobfuscate.
+jvmdg {
+    downgradeTo = JavaVersion.VERSION_1_8
+    shadeInlining = false
+}
+jar {
+    archiveClassifier = 'dev-java21'
+    manifest.attributes('FMLCorePlugin': 'fun.aloyenz.stfr.core.StfrCorePlugin',
+        'FMLCorePluginContainsFMLMod': 'true', 'ForceLoadAsMod': 'true',
+        'Implementation-Title': 'HBM:STFR', 'Implementation-Vendor': 'Aloyenz',
+        'License': 'PolyForm-Noncommercial-1.0.0')
+}
+shadeDowngradedApi { archiveClassifier = 'dev' }
+tasks.named('reobfJar', ReobfuscatedJar) {
+    inputJar.set(tasks.named('shadeDowngradedApi', Jar).flatMap { it.archiveFile })
+    archiveClassifier = ''
+    dependsOn('shadeDowngradedApi')
+}
+
+// Native Java 21 distribution uses the original classes and the same SRG mappings.
+def java21Release = tasks.register('reobfJava21Jar', ReobfuscatedJar) {
+    group = 'build'
+    description = 'Build the complete, reobfuscated mod for Java 21 runtimes.'
+    def standard = tasks.named('reobfJar', ReobfuscatedJar).get()
+    setInputJarFromTask(tasks.named('jar', Jar))
+    archiveClassifier = 'java21'
+    mcVersion.set(standard.mcVersion)
+    srg.set(standard.srg)
+    fieldCsv.set(standard.fieldCsv)
+    methodCsv.set(standard.methodCsv)
+    exceptorCfg.set(standard.exceptorCfg)
+    recompMcJar.set(standard.recompMcJar)
+    extraSrgEntries.set(standard.extraSrgEntries)
+    extraSrgFiles.from(standard.extraSrgFiles)
+    referenceClasspath.from(standard.referenceClasspath)
+    dependsOn('jar')
+}
+tasks.named('assemble') { dependsOn(java21Release) }
+
+['runClient', 'runServer'].each { taskName ->
+    tasks.named(taskName, RunMinecraftTask) {
+        classpath = classpath.minus(project.files(tasks.jar)) + project.files(tasks.shadeDowngradedApi)
+        dependsOn('shadeDowngradedApi')
+    }
+}
+
+// Check every class, including embedded shims, in the distributable Forge jar.
+tasks.register('verifyJava8Jar') {
+    group = 'verification'
+    dependsOn('reobfJar')
+    def outputJar = tasks.named('reobfJar', ReobfuscatedJar).flatMap { it.archiveFile }
+    inputs.file(outputJar)
+    doLast {
+        new java.util.zip.ZipFile(outputJar.get().asFile).withCloseable { zip ->
+            zip.entries().each { entry ->
+                if (entry.name.endsWith('.class')) {
+                    zip.getInputStream(entry).withCloseable { stream ->
+                        def data = new DataInputStream(stream)
+                        if (data.readInt() != (int) 0xCAFEBABE) {
+                            throw new GradleException("Invalid class: ${entry.name}")
+                        }
+                        data.readUnsignedShort()
+                        int major = data.readUnsignedShort()
+                        if (major > 52) {
+                            throw new GradleException("${entry.name}: class version ${major}, expected <= 52")
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+tasks.named('check') { dependsOn('verifyJava8Jar') }
+
+tasks.withType(Test).configureEach {
+    useJUnitPlatform()
+}
+
+// Validate the actual distribution archives, not only the intermediate resource directory.
+tasks.register('verifyDistributionNotices') {
+    group = 'verification'
+    dependsOn('reobfJar', 'reobfJava21Jar', 'sourcesJar')
+    def runtimeJar = tasks.named('reobfJar', ReobfuscatedJar).flatMap { it.archiveFile }
+    def sourceJar = tasks.named('sourcesJar', Jar).flatMap { it.archiveFile }
+    inputs.files(distributionNotices)
+    def java21Jar = java21Release.flatMap { it.archiveFile }
+    inputs.files(runtimeJar, java21Jar, sourceJar)
+    doLast {
+        ['LICENSE', 'NOTICE', 'CREDITS', 'THIRD_PARTY_NOTICES',
+         'LICENSES/JvmDowngrader-LGPL-2.1.txt', 'LICENSES/Gradle-Apache-2.0.txt',
+         'LICENSES/HBM-GPL-3.0.txt', 'LICENSES/HBM-LGPL-3.0.txt'].each { name ->
+            if (!file(name).isFile()) throw new GradleException("Missing distribution notice: ${name}")
+        }
+        [runtimeJar.get().asFile, java21Jar.get().asFile, sourceJar.get().asFile].each { archive ->
+            new java.util.zip.ZipFile(archive).withCloseable { zip ->
+                distributionNotices.files.each { notice ->
+                    def name = projectDir.toPath().relativize(notice.toPath()).toString().replace('\\', '/')
+                    def entry = zip.getEntry(name)
+                    if (entry == null) throw new GradleException("${archive.name} is missing ${name}")
+                    def actual = zip.getInputStream(entry).withCloseable { it.bytes }
+                    if (!java.util.Arrays.equals(actual, notice.bytes))
+                        throw new GradleException("${archive.name} contains an outdated ${name}")
+                }
+            }
+        }
+    }
+}
+tasks.named('check') { dependsOn('verifyDistributionNotices') }
+
+// Keep the native artifact complete and distinct from the Java 8 conversion.
+tasks.register('verifyJava21Jar') {
+    group = 'verification'
+    dependsOn(java21Release)
+    def originalJar = tasks.named('jar', Jar).flatMap { it.archiveFile }
+    def nativeJar = java21Release.flatMap { it.archiveFile }
+    inputs.files(originalJar, nativeJar)
+    doLast {
+        new java.util.zip.ZipFile(nativeJar.get().asFile).withCloseable { output ->
+            def main = output.getEntry('fun/aloyenz/stfr/STFR.class')
+            if (main == null) throw new GradleException('Java 21 release has no mod entry point')
+            def major = output.getInputStream(main).withCloseable { stream ->
+                def data = new DataInputStream(stream)
+                if (data.readInt() != (int) 0xCAFEBABE) throw new GradleException('Invalid Java 21 class')
+                data.readUnsignedShort()
+                data.readUnsignedShort()
+            }
+            if (major != 65) throw new GradleException("Native mod class version ${major}, expected 65")
+            new java.util.zip.ZipFile(originalJar.get().asFile).withCloseable { original ->
+                original.entries().each { entry ->
+                    if (!entry.directory && !entry.name.endsWith('.class')) {
+                        def copy = output.getEntry(entry.name)
+                        if (copy == null) throw new GradleException("Java 21 release is missing ${entry.name}")
+                        def expected = original.getInputStream(entry).withCloseable { it.bytes }
+                        def actual = output.getInputStream(copy).withCloseable { it.bytes }
+                        if (!java.util.Arrays.equals(actual, expected))
+                            throw new GradleException("Java 21 release changed resource ${entry.name}")
+                    }
+                }
+            }
+        }
+    }
+}
+tasks.named('check') { dependsOn('verifyJava21Jar') }

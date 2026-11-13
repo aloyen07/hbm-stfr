@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": {"model":"hbmstfr:capsule_filler", "x":270},
+    "facing=east": {"model":"hbmstfr:capsule_filler", "x":270, "y":90},
+    "facing=south": {"model":"hbmstfr:capsule_filler", "x":270, "y":180},
+    "facing=west": {"model":"hbmstfr:capsule_filler", "x":270, "y":270},
+    "facing=up": {"model":"hbmstfr:capsule_filler", "x":180},
+    "facing=down": {"model":"hbmstfr:capsule_filler"}
+  }
+}

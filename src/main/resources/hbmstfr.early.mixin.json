@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "minVersion": "0.8.7",
+  "package": "fun.aloyenz.stfr.mixin.early",
+  "compatibilityLevel": "JAVA_8",
+  "target": "@env(DEFAULT)",
+  "mixins": ["MixinEntityItemBurn"],
+  "injectors": {"defaultRequire": 1}
+}

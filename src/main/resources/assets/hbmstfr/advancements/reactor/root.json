@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"hbmstfr:mainframe"},"title":{"translate":"advancement.hbmstfr.reactor.title"},"description":{"translate":"advancement.hbmstfr.reactor.description"},"background":"minecraft:textures/gui/advancements/backgrounds/stone.png","show_toast":false,"announce_to_chat":false},"criteria":{"event":{"trigger":"minecraft:impossible"}}}
